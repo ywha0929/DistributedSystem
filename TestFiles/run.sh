@@ -1,2 +1,2 @@
 gcc *.c -o createTestFile
-./createTestFile $1
+./createTestFile $1 $2

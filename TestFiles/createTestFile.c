@@ -22,13 +22,14 @@ int main(int argc, char** argv)
 	int random = 0;
 	char line[MAXLINE] = "";
 	FILE* fd = fopen("./TestFile.txt","w+");
-	int nLines = atoi(argv[1]);
+	int nLines = atoi(argv[2]);
+	int nPerLine = atoi(argv[1]);
 	//printf("how Many Lines : ");
 	//scanf("%d",&nLines);
 	//printf("check1\n");
 	for(int i = 0; i<nLines; i++)
 	{
-		for(int j = 0; j< NUMPERLINE; j++)
+		for(int j = 0; j< nPerLine; j++)
 		{
 			random = createThreeDigitNumber();
 			char charNumber[10];
