@@ -28,7 +28,8 @@ public class RunnableDistribution_Client {
 
 //        SocketOutputThread[] SocketOutputThreads = new SocketOutputThread[numServers];
 
-        String nameTestFile = "../../TestFiles/TestFile.txt";
+//        String nameTestFile = "../../TestFiles/TestFile.txt";
+        String nameTestFile = args[1];
         File file = new File(nameTestFile);
         List<String> allLines;
         try {
