@@ -23,7 +23,7 @@ public class RunnableDistribution_Client {
         ips = new String[numServers];
         ports = new int[numServers];
         sockets = new Socket[numServers];
-        ips[0] = "210.107.198.220";
+        ips[0] = "192.168.0.8";
         ports[0] = 21234;
 
 //        SocketOutputThread[] SocketOutputThreads = new SocketOutputThread[numServers];

@@ -7,10 +7,20 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 public class RunnableDistribution_Server {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+    public RunnableDistribution_Server() throws IOException {
     }
-    int port = 21234;
+
+    public static void main(String[] args) throws IOException {
+
+        System.out.println("Hello world!");
+        int port = 21234;
+
+
+        Thread serverThread = new ServerThread(port);
+    }
+
+
+
 
 }
 
