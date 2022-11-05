@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 public class SingleDeviceTest {
-    static int numThread = 4;
+    static int numThread = 8;
 
 
     public static void main(String[] args) {
