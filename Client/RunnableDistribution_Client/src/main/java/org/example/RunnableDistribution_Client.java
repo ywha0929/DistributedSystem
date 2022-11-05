@@ -14,10 +14,15 @@ public class RunnableDistribution_Client {
     static String[] ips;
     static int[] ports;
 
-
+    static int numServers = 1;
     static int numThread = 4;
     public static void main(String[] args) {
-        int numThread = 4;
+
+        ips = new String[numServers];
+        ports = new int[numServers];
+
+
+
         String nameTestFile = "../../TestFiles/TestFile.txt";
         File file = new File(nameTestFile);
         List<String> allLines;

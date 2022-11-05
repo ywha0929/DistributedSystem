@@ -46,11 +46,11 @@ public class SingleDeviceTest {
         ThreadController threadController = ThreadController.getInstance();
         threadController.setNumThread(numThread);
 
-
+        long beforeTime = System.currentTimeMillis();
         for(int i = 0; i<listOperands.size(); i++)
         {
             int index = threadController.getIdleThreadIndex();
-            System.out.println("index : " + index);
+//            System.out.println("index : " + index);
             while(index == -1)
             {
                 index = threadController.getIdleThreadIndex();
@@ -60,7 +60,9 @@ public class SingleDeviceTest {
             thisThread.start();
 
         }
-
+        long afterTime = System.currentTimeMillis();
+        long secDiffTime = (afterTime - beforeTime)/1000;
+        System.out.println("Execution Time : " +secDiffTime);
 
     }
 }
