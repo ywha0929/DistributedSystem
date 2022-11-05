@@ -1,8 +1,6 @@
 package org.example;
 
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -17,6 +15,7 @@ public class RunnableDistribution_Server {
 
 
         Thread serverThread = new ServerThread(port);
+        serverThread.start();
     }
 
 
@@ -27,39 +26,52 @@ public class RunnableDistribution_Server {
 class ServerThread extends Thread {
     static int numThread = 8;
     Socket socket;
-    ObjectInputStream objectInputStream;
+
     ThreadController threadController;
-    ObjectOutputStream objectOutputStream;
+
+    InputStream inputStream;
+    OutputStream  outputStream;
+    byte[] buffer;
     public ServerThread(int port) throws IOException {
         socket = new ServerSocket(port).accept();
         threadController = ThreadController.getInstance();
         threadController.setNumThread(numThread);
+        buffer = new byte[2000];
     }
     @Override
     public void run() {
         try {
-            objectInputStream= (ObjectInputStream) socket.getInputStream();
-            objectOutputStream = (ObjectOutputStream) socket.getOutputStream();
+            inputStream = socket.getInputStream();
+            outputStream =  socket.getOutputStream();
         } catch (IOException e) {
             e.printStackTrace();
         }
         while(true)
         {
             try {
-                if(objectInputStream.available() == -1)
+                if(inputStream.available() == -1)
                     continue;
                 else
                 {
+                    inputStream.read(buffer);
+                    ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(buffer);
+                    ObjectInputStream objectInputStream = new ObjectInputStream(byteArrayInputStream);
                     String msg = objectInputStream.readUTF();
                     if(msg.equals("getServerIdleIndex"))
                     {
+                        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+                        ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream);
                         objectOutputStream.writeInt(threadController.getIdleThreadIndex());
+                        outputStream.write(byteArrayOutputStream.toByteArray());
                     }
                     else if(msg.equals("DistributeCalculation"))
                     {
-                        while(objectInputStream.available() == -1);
+                        while(inputStream.available() == -1);
+                        inputStream.read(buffer);
+                        ByteArrayInputStream byteArrayInputStream2 = new ByteArrayInputStream(buffer);
+                        objectInputStream = new ObjectInputStream(byteArrayInputStream2);
                         Operands operands = (Operands) objectInputStream.readObject();
-                        Thread thisThread = new Thread(new DistributableRunnable(threadController,threadController.getIdleThreadIndex(),operands, objectOutputStream));
+                        Thread thisThread = new Thread(new DistributableRunnable(threadController,threadController.getIdleThreadIndex(),operands, outputStream));
                         thisThread.start();
                     }
 

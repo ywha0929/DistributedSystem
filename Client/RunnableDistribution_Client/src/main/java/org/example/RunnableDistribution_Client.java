@@ -1,9 +1,6 @@
 package org.example;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
+import java.io.*;
 import java.net.Socket;
 import java.net.UnknownHostException;
 import java.nio.file.Files;
@@ -91,10 +88,21 @@ public class RunnableDistribution_Client {
                     public void run() {
 
                         try {
-                            ObjectOutputStream objectOutputStream = (ObjectOutputStream) sockets[numServer].getOutputStream();
+                            OutputStream outputStream =  sockets[numServer].getOutputStream();
+                            ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+                            ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream);
                             objectOutputStream.writeUTF("DistributeCalculation");
+                            outputStream.write(byteArrayOutputStream.toByteArray());
+                            byteArrayOutputStream.reset();
+
                             objectOutputStream.writeObject(listOperands.get(finalI));
-                            ObjectInputStream objectInputStream = (ObjectInputStream) sockets[numServer].getInputStream();
+                            outputStream.write(byteArrayOutputStream.toByteArray());
+
+                            InputStream inputStream = sockets[numServer].getInputStream();
+                            byte[] buffer = new byte[2000];
+                            inputStream.read(buffer);
+                            ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(buffer);
+                            ObjectInputStream objectInputStream = new ObjectInputStream(byteArrayInputStream);
                             int result = objectInputStream.readInt();
                             System.out.println("answer : "+result);
                         } catch (IOException e) {
@@ -125,9 +133,17 @@ public class RunnableDistribution_Client {
         {
 
             try{
-                ObjectOutputStream objectOutputStream = (ObjectOutputStream) sockets[i].getOutputStream();
+                OutputStream outputStream =  sockets[i].getOutputStream();
+                ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+                ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream);
                 objectOutputStream.writeUTF("getServerIdleIndex");
-                ObjectInputStream objectInputStream = (ObjectInputStream) sockets[i].getInputStream();
+                outputStream.write(byteArrayOutputStream.toByteArray());
+
+                InputStream inputStream = sockets[i].getInputStream();
+                byte[] buffer = new byte[2000];
+                inputStream.read(buffer);
+                ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(buffer);
+                ObjectInputStream objectInputStream = new ObjectInputStream(byteArrayInputStream);
                 int index = objectInputStream.readInt();
                 if(index != -1)
                 {

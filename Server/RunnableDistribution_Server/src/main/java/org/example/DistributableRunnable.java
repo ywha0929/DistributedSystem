@@ -1,6 +1,8 @@
 package org.example;
 
+import java.io.ByteArrayOutputStream;
 import java.io.ObjectOutputStream;
+import java.io.OutputStream;
 import java.io.Serializable;
 
 public class DistributableRunnable implements Serializable, Runnable {
@@ -8,14 +10,14 @@ public class DistributableRunnable implements Serializable, Runnable {
     ThreadController threadController;
     int threadIndex;
     int result;
-    ObjectOutputStream objectOutputStream;
-    public DistributableRunnable(ThreadController threadController, int index, Operands operands, ObjectOutputStream objectOutputStream)
+    OutputStream outputStream;
+    public DistributableRunnable(ThreadController threadController, int index, Operands operands, OutputStream outputStream)
     {
         this.operands = operands;
         this.threadIndex = index;
         this.threadController = threadController;
         this.result = 1;
-        this.objectOutputStream = objectOutputStream;
+        this.outputStream = outputStream;
     }
     @Override
     public void run() {
@@ -48,7 +50,10 @@ public class DistributableRunnable implements Serializable, Runnable {
 
 
         try {
+            ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+            ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream);
             objectOutputStream.writeInt(result);
+            outputStream.write(byteArrayOutputStream.toByteArray());
         } catch (Exception e){
             e.printStackTrace();
         }
