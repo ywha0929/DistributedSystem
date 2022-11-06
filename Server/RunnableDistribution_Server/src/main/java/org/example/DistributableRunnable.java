@@ -19,11 +19,15 @@ public class DistributableRunnable implements Serializable, Runnable {
         this.result = 1;
         this.outputStream = outputStream;
     }
+    public int getResult()
+    {
+        return result;
+    }
     @Override
     public void run() {
 //        System.out.println(operands.get(0));
 //        System.out.println(result);
-//        System.out.println(operands.getSize());
+        System.out.println("Distributable runnable : "+operands.getSize());
 
         for(int i = 0; i< operands.getSize(); i++)
         {
@@ -49,15 +53,17 @@ public class DistributableRunnable implements Serializable, Runnable {
         }
 
 
-        try {
-            ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-            ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream);
-            objectOutputStream.writeInt(result);
-            outputStream.write(byteArrayOutputStream.toByteArray());
-        } catch (Exception e){
-            e.printStackTrace();
-        }
+//        try {
+//            ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+//            ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream);
+//            objectOutputStream.writeInt(result);
+//            objectOutputStream.flush();
+//            outputStream.write(byteArrayOutputStream.toByteArray());
+//        } catch (Exception e){
+//            e.printStackTrace();
+//        }
         System.out.println("answer : "+result);
         threadController.isOccupied[threadIndex] = false;
+
     }
 }

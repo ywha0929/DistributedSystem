@@ -28,4 +28,32 @@ public class Operands implements Serializable {
     {
         return operands[i];
     }
+
+    public byte[] toByteArray()
+    {
+        byte[] result = new byte[operands.length];
+
+        for(int i = 0; i< operands.length; i++)
+        {
+            result[i] = (byte) (operands[i] & 0xFF);
+        }
+        return result;
+    }
+
+    public void fromByteArray(byte[] source)
+    {
+        for(int i= 0; i<source.length; i++)
+        {
+            if(source[i] == 0)
+            {
+                this.setSize(i+1);
+                break;
+            }
+        }
+        for(int i=0; i<this.size; i++)
+        {
+            operands[i] = source[i];
+        }
+    }
 }
+

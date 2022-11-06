@@ -4,7 +4,8 @@ public class ThreadController {
     int numThread;
     boolean[] isOccupied;
     static ThreadController instance = null;
-//    Thread[] threads;
+    Thread[] threads;
+    Runnable[] runnables;
 
     public static ThreadController getInstance()
     {
@@ -22,6 +23,8 @@ public class ThreadController {
     {
         instance.numThread = numThread;
         instance.isOccupied = new boolean[numThread];
+        threads = new Thread[numThread];
+        runnables = new Runnable[numThread];
     }
 
     public int getIdleThreadIndex()
@@ -47,6 +50,20 @@ public class ThreadController {
 //            return null;
         }
     }
-
-
+    public void setThread(Thread thread, int index)
+    {
+        threads[index] = thread;
+    }
+    public Thread getThread(int index)
+    {
+        return threads[index];
+    }
+    public void setRunnable(Runnable runnable, int index)
+    {
+        runnables[index] = runnable;
+    }
+    public Runnable getRunnable(int index)
+    {
+        return runnables[index];
+    }
 }

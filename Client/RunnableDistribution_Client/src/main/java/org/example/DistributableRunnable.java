@@ -16,9 +16,7 @@ public class DistributableRunnable implements Serializable, Runnable {
     }
     @Override
     public void run() {
-//        System.out.println(operands.get(0));
-//        System.out.println(result);
-//        System.out.println(operands.getSize());
+//        System.out.println("startCalculation");
 
         for(int i = 0; i< operands.getSize(); i++)
         {

@@ -3,11 +3,14 @@ package org.example;
 import java.io.*;
 import java.net.Socket;
 import java.net.UnknownHostException;
+import java.nio.file.AtomicMoveNotSupportedException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 import java.util.StringTokenizer;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 public class RunnableDistribution_Client {
     static String[] ips;
@@ -15,18 +18,24 @@ public class RunnableDistribution_Client {
     static Socket[] sockets;
     static int numServers = 1;
     static int numThread = 4;
+    static SendThread[] sendThreads;
+    static ReadThread[] readThreads;
+    //tatic Thread SendThread;
     public static void main(String[] args) {
 
         ips = new String[numServers];
         ports = new int[numServers];
         sockets = new Socket[numServers];
-        ips[0] = "192.168.0.8";
+        ips[0] = "127.0.0.1";
+        Scanner sc = new Scanner(System.in);
+        ips[0] = sc.next();
         ports[0] = 21234;
-
+        sendThreads = new SendThread[numServers];
+        readThreads = new ReadThread[numServers];
 //        SocketOutputThread[] SocketOutputThreads = new SocketOutputThread[numServers];
 
-//        String nameTestFile = "../../TestFiles/TestFile.txt";
-        String nameTestFile = args[1];
+        String nameTestFile = "../../TestFiles/TestFile.txt";
+//        String nameTestFile = args[1];
         File file = new File(nameTestFile);
         List<String> allLines;
         try {
@@ -61,6 +70,10 @@ public class RunnableDistribution_Client {
         {
             try{
                 sockets[i] = new Socket(ips[i],ports[i]);
+                sendThreads[i] = new SendThread(sockets[i]);
+                sendThreads[i].start();
+                readThreads[i] = new ReadThread(sockets[i]);
+                readThreads[i].start();
 //                SocketOutputThreads[i] = new SocketOutputThread(socket);
 
             } catch(Exception e)
@@ -71,50 +84,69 @@ public class RunnableDistribution_Client {
 
         for(int i = 0; i<listOperands.size(); i++)
         {
+            System.out.println("i : "+i);
             int index = threadController.getIdleThreadIndex();
+            System.out.println("before getServerIdleThreadIndex");
             int serverIndex = getServerIdleThreadIndex();
+            System.out.println("after getServerIdleThreadIndex : "+ serverIndex);
 //            System.out.println("index : " + index);
             while(index == -1 && serverIndex==-1)
             {
                 index = threadController.getIdleThreadIndex();
+//                System.out.println("before getServerIdleThreadIndex");
                 serverIndex = getServerIdleThreadIndex();
+                System.out.println("after getServerIdleThreadIndex : "+ serverIndex);
             } //wait until idel thread is found
             if(index == -1)
             {
                 int numServer = serverIndex / 1000;
                 int finalI = i;
-                Thread thread = new Thread(new Runnable() {
-                    @Override
-                    public void run() {
-
-                        try {
-                            OutputStream outputStream =  sockets[numServer].getOutputStream();
-                            ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-                            ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream);
-                            objectOutputStream.writeUTF("DistributeCalculation");
-                            outputStream.write(byteArrayOutputStream.toByteArray());
-                            byteArrayOutputStream.reset();
-
-                            objectOutputStream.writeObject(listOperands.get(finalI));
-                            outputStream.write(byteArrayOutputStream.toByteArray());
-
-                            InputStream inputStream = sockets[numServer].getInputStream();
-                            byte[] buffer = new byte[2000];
-                            inputStream.read(buffer);
-                            ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(buffer);
-                            ObjectInputStream objectInputStream = new ObjectInputStream(byteArrayInputStream);
-                            int result = objectInputStream.readInt();
-                            System.out.println("answer : "+result);
-                        } catch (IOException e) {
-                            throw new RuntimeException(e);
-                        }
-
-                    }
-                });
-                thread.start();
+                System.out.println("send Calculation to Server : "+serverIndex);
+                byte[] thisOperand = listOperands.get(i).toByteArray();
+                Message msg = new Message(thisOperand);
+                sendThreads[0].putMsg(msg);
+//                Thread thread = new Thread(new Runnable() {
+//                    @Override
+//                    public void run() {
+//
+//                        try {
+////                            Message msg = new Message(2);
+////                            sendThreads[0].putMsg(msg);
+////                            OutputStream outputStream =  sockets[numServer].getOutputStream();
+////                            ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+////                            ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream);
+////                            objectOutputStream.writeInt(2);
+////                            objectOutputStream.flush();
+////                            outputStream.write(byteArrayOutputStream.toByteArray());
+//
+////                            byteArrayOutputStream.reset();
+////                            Message msg = new Message(listOperands.get(finalI).toByteArray());
+//                            byte[] thisOperands= listOperands.get(finalI).toByteArray();
+//                            Message msg = new Message(thisOperands);
+//                            System.out.println("operands length : "+thisOperands.length);
+//                            sendThreads[0].putMsg(msg);
+////
+////                            objectOutputStream.write(listOperands.get(finalI).toByteArray());
+//////                            objectOutputStream.writeObject(listOperands.get(finalI));
+////
+////                            outputStream.write(byteArrayOutputStream.toByteArray());
+////                            System.out.println(listOperands.get(finalI).toByteArray().length);
+//                            InputStream inputStream = sockets[0].getInputStream();
+//                            while(inputStream.available() == -1);
+//                            DataInputStream dataInputStream = new DataInputStream(inputStream);
+//                            int result = dataInputStream.readInt();
+//                            System.out.println("answer from Server : "+result+", i : " + finalI);
+//                        } catch (IOException e) {
+//                            throw new RuntimeException(e);
+//                        }
+//
+//                    }
+//                });
+//                thread.start();
             }
             else
             {
+                System.out.println("start Calculation");
                 threadController.useThread(index);
                 Thread thisThread = new Thread(new DistributableRunnable(threadController,index, listOperands.get(i)));
                 thisThread.start();
@@ -126,35 +158,93 @@ public class RunnableDistribution_Client {
 
     }
 
-
+    static boolean isReceived = false;
+    static int received_data = 0;
     static int getServerIdleThreadIndex()
     {
+
         for(int i = 0; i<numServers; i++)
         {
 
             try{
-                OutputStream outputStream =  sockets[i].getOutputStream();
-                ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-                ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream);
-                objectOutputStream.writeUTF("getServerIdleIndex");
-                outputStream.write(byteArrayOutputStream.toByteArray());
+                Message msg = new Message(1);
+                sendThreads[i].putMsg(msg);
+//                OutputStream outputStream =  sockets[i].getOutputStream();
+//                ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+//                ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream);
+//                objectOutputStream.writeInt(1); //getServerIdleIndex
+//                objectOutputStream.flush();
+//                outputStream.write(byteArrayOutputStream.toByteArray());
+//                for(int j = 0; j< byteArrayOutputStream.toByteArray().length; j++)
+//                {
+//                    System.out.print(byteArrayOutputStream.toByteArray()[j]);
+//                }
+                //System.out.println(readThreads[i].index);
+                while(!readThreads[i].isIndex.get())
+                    for(int j = 0; j<10000; j++);
 
-                InputStream inputStream = sockets[i].getInputStream();
-                byte[] buffer = new byte[2000];
-                inputStream.read(buffer);
-                ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(buffer);
-                ObjectInputStream objectInputStream = new ObjectInputStream(byteArrayInputStream);
-                int index = objectInputStream.readInt();
-                if(index != -1)
-                {
-                    return i*1000 + index;
-                }
+
+                System.out.println("returning");
+                readThreads[i].isIndex.set(false);
+//                readThreads[i].isCheck = true;
+                return readThreads[i].index;
 
             }catch(Exception e){
                 e.printStackTrace();
+                return 100;
             }
 
         }
         return -1;
+    }
+
+
+}
+
+class ReadThread extends Thread
+{
+    InputStream inputStream;
+    AtomicBoolean isIndex = new AtomicBoolean();
+    int index;
+    byte[] buffer;
+    boolean isCheck;
+    public ReadThread(Socket socket) throws IOException {
+        inputStream = socket.getInputStream();
+        buffer = new byte[16];
+        isIndex.set(false);
+//        isCheck = true;
+        index = 0;
+    }
+
+    @Override
+    public void run() {
+        while(true)
+        {
+            try{
+                while(inputStream.available()<=0);
+                System.out.println("msg from Server");
+                DataInputStream dataInputStream = new DataInputStream(inputStream);
+                int mode = dataInputStream.readInt();
+                int other = dataInputStream.readInt();
+                System.out.println("mode : "+mode+", other : "+other);
+                if(mode == 1)
+                {
+//                    while(!isCheck)
+//                        for(int i = 0; i< 10000; i++);
+                    index = other;
+                    isIndex.set(true);
+//                    isCheck = false;
+                    System.out.println("change:");
+                }
+                else
+                {
+                    System.out.println("Answer from Server : "+other);
+                }
+            } catch(Exception e)
+            {
+                e.printStackTrace();
+            }
+
+        }
     }
 }
