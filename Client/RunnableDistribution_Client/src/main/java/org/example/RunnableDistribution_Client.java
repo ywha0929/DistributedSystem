@@ -108,7 +108,7 @@ public class RunnableDistribution_Client {
                 System.err.println("send Calculation to Server : "+serverIndex);
                 byte[] thisOperand = listOperands.get(i).toByteArray();
                 Message msg = new Message(thisOperand);
-                sendThreads[0].putMsg(msg);
+                sendThreads[numServer].putMsg(msg);
 //                Thread thread = new Thread(new Runnable() {
 //                    @Override
 //                    public void run() {
