@@ -25,7 +25,7 @@ public class RunnableDistribution_Server {
 }
 
 class ServerThread extends Thread {
-    static int numThread = 1;
+    static int numThread = 8;
     Socket socket;
 
     ThreadController threadController;

@@ -27,15 +27,15 @@ public class RunnableDistribution_Client {
         ports = new int[numServers];
         sockets = new Socket[numServers];
         ips[0] = "127.0.0.1";
-        Scanner sc = new Scanner(System.in);
-        ips[0] = sc.next();
+//        Scanner sc = new Scanner(System.in);
+        ips[0] = args[1];
         ports[0] = 21234;
         sendThreads = new SendThread[numServers];
         readThreads = new ReadThread[numServers];
 //        SocketOutputThread[] SocketOutputThreads = new SocketOutputThread[numServers];
 
-        String nameTestFile = "../../TestFiles/TestFile.txt";
-//        String nameTestFile = args[1];
+//        String nameTestFile = "../../TestFiles/TestFile.txt";
+        String nameTestFile = args[2];
         File file = new File(nameTestFile);
         List<String> allLines;
         try {
@@ -82,6 +82,8 @@ public class RunnableDistribution_Client {
             }
         }
 
+
+        long beforeTime = System.currentTimeMillis();
         for(int i = 0; i<listOperands.size(); i++)
         {
             System.out.println("i : "+i);
@@ -154,12 +156,14 @@ public class RunnableDistribution_Client {
 
 
         }
-
+        long afterTime = System.currentTimeMillis();
+        long secDiffTime = (afterTime - beforeTime)/1000;
+        System.out.println("Execution Time : " +secDiffTime);
 
     }
-
-    static boolean isReceived = false;
-    static int received_data = 0;
+//
+//    static boolean isReceived = false;
+//    static int received_data = 0;
     static int getServerIdleThreadIndex()
     {
 
