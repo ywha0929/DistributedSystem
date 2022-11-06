@@ -1,0 +1,3224 @@
+i : 0
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 0
+change:
+returning
+after getServerIdleThreadIndex : 0
+start Calculation
+i : 1
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 0
+change:
+returning
+after getServerIdleThreadIndex : 0
+start Calculation
+i : 2
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 0
+change:
+returning
+after getServerIdleThreadIndex : 0
+start Calculation
+i : 3
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 0
+change:
+returning
+after getServerIdleThreadIndex : 0
+start Calculation
+i : 4
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 0
+change:
+returning
+after getServerIdleThreadIndex : 0
+send Calculation to Server : 0
+Send thread : Got Message
+Send thread : sent operands to server
+i : 5
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 1
+change:
+returning
+after getServerIdleThreadIndex : 1
+send Calculation to Server : 1
+i : 6
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 2
+change:
+returning
+after getServerIdleThreadIndex : 2
+send Calculation to Server : 2
+i : 7
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 3
+change:
+returning
+after getServerIdleThreadIndex : 3
+send Calculation to Server : 3
+i : 8
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 4
+change:
+returning
+after getServerIdleThreadIndex : 4
+send Calculation to Server : 4
+Send thread : Got Message
+i : 9
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 5
+change:
+returning
+after getServerIdleThreadIndex : 5
+send Calculation to Server : 5
+Send thread : Got Message
+Send thread : sent operands to server
+i : 10
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 6
+change:
+returning
+after getServerIdleThreadIndex : 6
+send Calculation to Server : 6
+Send thread : Got Message
+i : 11
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 7
+change:
+returning
+after getServerIdleThreadIndex : 7
+send Calculation to Server : 7
+Send thread : Got Message
+i : 12
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 0
+change:
+returning
+after getServerIdleThreadIndex : 1000
+send Calculation to Server : 1000
+Send thread : Got Message
+i : 13
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : sent operands to server
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 1
+change:
+returning
+after getServerIdleThreadIndex : 1001
+send Calculation to Server : 1001
+Send thread : Got Message
+i : 14
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 2
+change:
+returning
+after getServerIdleThreadIndex : 1002
+send Calculation to Server : 1002
+Send thread : Got Message
+i : 15
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : sent operands to server
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+returning
+Send thread : Got Message
+change:
+Send thread : send num to server
+msg from Server
+mode : 1, other : 3
+change:
+returning
+after getServerIdleThreadIndex : 1003
+send Calculation to Server : 1003
+Send thread : Got Message
+i : 16
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : sent operands to server
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 4
+change:
+returning
+after getServerIdleThreadIndex : 1004
+send Calculation to Server : 1004
+Send thread : Got Message
+i : 17
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : sent operands to server
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 5
+change:
+returning
+after getServerIdleThreadIndex : 1005
+send Calculation to Server : 1005
+Send thread : Got Message
+i : 18
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 6
+change:
+returning
+after getServerIdleThreadIndex : 1006
+send Calculation to Server : 1006
+i : 19
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : Got Message
+Send thread : send num to server
+Send thread : sent operands to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 7
+change:
+returning
+after getServerIdleThreadIndex : 1007
+send Calculation to Server : 1007
+i : 20
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+Send thread : Got Message
+Send thread : sent operands to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 0
+change:
+msg from Server
+returning
+mode : 2, other : 1
+after getServerIdleThreadIndex : 0
+answer from Server : 1
+send Calculation to Server : 0
+msg from Server
+mode : 2, other : 1
+answer from Server : 1
+i : 21
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : 1
+answer from Server : 1
+msg from Server
+mode : 1, other : 1
+change:
+msg from Server
+returning
+mode : 2, other : 1
+answer from Server : 1
+after getServerIdleThreadIndex : 1
+send Calculation to Server : 1
+Send thread : Got Message
+i : 22
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 1, other : 2
+returning
+change:
+after getServerIdleThreadIndex : 2
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+send Calculation to Server : 2
+Send thread : Got Message
+i : 23
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 3
+change:
+msg from Server
+returning
+mode : 2, other : 1
+answer from Server : 1
+after getServerIdleThreadIndex : 3
+send Calculation to Server : 3
+i : 24
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : 1
+answer from Server : 1
+msg from Server
+mode : 2, other : 1
+answer from Server : 1
+msg from Server
+mode : 1, other : 4
+change:
+msg from Server
+returning
+mode : 2, other : 1
+after getServerIdleThreadIndex : 4
+answer from Server : 1
+send Calculation to Server : 4
+msg from Server
+Send thread : Got Message
+mode : 2, other : 1
+answer from Server : 1
+Send thread : sent operands to server
+i : 25
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : 1
+answer from Server : 1
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 1, other : 5
+change:
+returning
+msg from Server
+after getServerIdleThreadIndex : 5
+send Calculation to Server : 5
+mode : 2, other : 1
+answer from Server : 1
+Send thread : Got Message
+msg from Server
+Send thread : sent operands to server
+i : 26
+mode : 2, other : 6
+answer from Server : 6
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 1, other : 6
+change:
+returning
+msg from Server
+after getServerIdleThreadIndex : 6
+send Calculation to Server : 6
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+Send thread : Got Message
+i : 27
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+mode : 2, other : 6
+answer from Server : 6
+Send thread : send num to server
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 1, other : 7
+change:
+returning
+msg from Server
+after getServerIdleThreadIndex : 7
+send Calculation to Server : 7
+mode : 2, other : 6
+answer from Server : 6
+i : 28
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+answer : 6
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 2
+change:
+msg from Server
+returning
+mode : 2, other : 5
+answer from Server : 5
+after getServerIdleThreadIndex : 1002
+send Calculation to Server : 1002
+Send thread : Got Message
+i : 29
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+answer : 2
+mode : 1, other : 3
+change:
+msg from Server
+returning
+mode : 2, other : -4
+answer from Server : -4
+after getServerIdleThreadIndex : 1003
+start Calculation
+i : 30
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 3
+change:
+msg from Server
+returning
+mode : 2, other : -4
+answer from Server : -4
+after getServerIdleThreadIndex : 1003
+start Calculation
+i : 31
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 0
+change:
+msg from Server
+returning
+mode : 2, other : -6
+answer from Server : -6
+msg from Server
+mode : 2, other : -4
+answer from Server : -4
+msg from Server
+mode : 2, other : 8
+answer from Server : 8
+after getServerIdleThreadIndex : 1000
+send Calculation to Server : 1000
+Send thread : Got Message
+i : 32
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : sent operands to server
+Send thread : send num to server
+msg from Server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+mode : 2, other : 1
+answer from Server : 1
+msg from Server
+mode : 2, other : -4
+answer from Server : -4
+msg from Server
+mode : 2, other : 8
+answer from Server : 8
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 1, other : 1
+change:
+returning
+msg from Server
+after getServerIdleThreadIndex : 1001
+send Calculation to Server : 1001
+mode : 2, other : 1
+answer from Server : 1
+i : 33
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : Got Message
+msg from Server
+mode : 2, other : -4
+answer from Server : -4
+msg from Server
+Send thread : send num to server
+mode : 2, other : 8
+answer from Server : 8
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 2, other : 1
+answer from Server : 1
+Send thread : sent operands to server
+msg from Server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+mode : 2, other : -4
+answer from Server : -4
+msg from Server
+mode : 2, other : 8
+answer from Server : 8
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 2, other : 1
+answer from Server : 1
+msg from Server
+mode : 1, other : 3
+change:
+returning
+msg from Server
+after getServerIdleThreadIndex : 1003
+mode : 2, other : -4
+answer from Server : -4
+send Calculation to Server : 1003
+msg from Server
+mode : 2, other : 8
+answer from Server : 8
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 2, other : 1
+answer from Server : 1
+Send thread : Got Message
+i : 34
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : sent operands to server
+Send thread : send num to server
+msg from Server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+mode : 2, other : 8
+answer from Server : 8
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 2, other : 1
+answer from Server : 1
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 1, other : 4
+change:
+msg from Server
+returning
+mode : 2, other : 8
+answer from Server : 8
+after getServerIdleThreadIndex : 1004
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 2, other : 1
+answer from Server : 1
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+send Calculation to Server : 1004
+i : 35
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : Got Message
+Send thread : send num to server
+Send thread : sent operands to server
+msg from Server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 2, other : 1
+answer from Server : 1
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+answer : 6
+mode : 1, other : 5
+change:
+msg from Server
+returning
+mode : 2, other : 6
+answer from Server : 6
+after getServerIdleThreadIndex : 1005
+send Calculation to Server : 1005
+msg from Server
+i : 36
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : Got Message
+mode : 2, other : 1
+answer from Server : 1
+Send thread : send num to server
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+Send thread : sent operands to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : 1
+answer from Server : 1
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 1, other : 6
+change:
+msg from Server
+returning
+mode : 2, other : 1
+answer from Server : 1
+after getServerIdleThreadIndex : 1006
+start Calculation
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+i : 37
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 6
+change:
+msg from Server
+mode : 2, other : 1
+answer from Server : 1
+returning
+msg from Server
+after getServerIdleThreadIndex : 1006
+mode : 2, other : 6
+answer from Server : 6
+send Calculation to Server : 1006
+Send thread : Got Message
+i : 38
+Send thread : sent operands to server
+msg from Server
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 7
+change:
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+returning
+after getServerIdleThreadIndex : 1007
+send Calculation to Server : 1007
+Send thread : Got Message
+Send thread : sent operands to server
+i : 39
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+answer : 6
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+start Calculation
+i : 40
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 0
+change:
+returning
+msg from Server
+after getServerIdleThreadIndex : 0
+mode : 2, other : 4
+answer from Server : 4
+send Calculation to Server : 0
+msg from Server
+i : 41
+before getServerIdleThreadIndex
+mode : 2, other : 5
+answer from Server : 5
+Send thread : Got Message
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : 5
+answer from Server : 5
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 1, other : 1
+change:
+msg from Server
+mode : 2, other : 5
+answer from Server : 5
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+returning
+after getServerIdleThreadIndex : 1
+send Calculation to Server : 1
+Send thread : Got Message
+i : 42
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 1, other : 2
+change:
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+returning
+after getServerIdleThreadIndex : 2
+send Calculation to Server : 2
+Send thread : Got Message
+i : 43
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 3
+change:
+msg from Server
+returning
+after getServerIdleThreadIndex : 3
+mode : 2, other : 6
+send Calculation to Server : 3
+answer from Server : 6
+Send thread : Got Message
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+i : 44
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 2, other : 1
+answer from Server : 1
+msg from Server
+mode : 1, other : 4
+change:
+returning
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 2, other : 1
+answer from Server : 1
+after getServerIdleThreadIndex : 4
+send Calculation to Server : 4
+Send thread : Got Message
+i : 45
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : 1
+answer from Server : 1
+msg from Server
+mode : 2, other : 5
+answer from Server : 5
+msg from Server
+mode : 2, other : -5
+answer from Server : -5
+msg from Server
+mode : 1, other : 5
+change:
+msg from Server
+returning
+mode : 2, other : 1
+answer from Server : 1
+msg from Server
+mode : 2, other : 5
+answer from Server : 5
+msg from Server
+mode : 2, other : -5
+answer from Server : -5
+after getServerIdleThreadIndex : 5
+send Calculation to Server : 5
+Send thread : Got Message
+i : 46
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : 5
+answer from Server : 5
+msg from Server
+mode : 2, other : -5
+answer from Server : -5
+msg from Server
+mode : 1, other : 6
+change:
+msg from Server
+mode : 2, other : 5
+answer from Server : 5
+msg from Server
+mode : 2, other : -5
+answer from Server : -5
+returning
+after getServerIdleThreadIndex : 6
+send Calculation to Server : 6
+Send thread : Got Message
+i : 47
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : -5
+answer from Server : -5
+msg from Server
+mode : 1, other : 7
+change:
+msg from Server
+mode : 2, other : -5
+answer from Server : -5
+returning
+after getServerIdleThreadIndex : 7
+send Calculation to Server : 7
+Send thread : Got Message
+i : 48
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 2
+change:
+msg from Server
+returning
+mode : 2, other : 6
+answer from Server : 6
+after getServerIdleThreadIndex : 1002
+send Calculation to Server : 1002
+Send thread : Got Message
+i : 49
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : sent operands to server
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 0
+change:
+msg from Server
+returning
+after getServerIdleThreadIndex : 1000
+send Calculation to Server : 1000
+Send thread : Got Message
+Send thread : sent operands to server
+mode : 2, other : 8
+answer from Server : 8
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+i : 50
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 1
+change:
+msg from Server
+returning
+mode : 2, other : 6
+answer from Server : 6
+after getServerIdleThreadIndex : 1001
+send Calculation to Server : 1001
+Send thread : Got Message
+i : 51
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+Send thread : sent operands to server
+msg from Server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+mode : 2, other : 2
+answer from Server : 2
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 1, other : 3
+change:
+returning
+msg from Server
+after getServerIdleThreadIndex : 1003
+send Calculation to Server : 1003
+mode : 2, other : 2
+answer from Server : 2
+i : 52
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+Send thread : Got Message
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+Send thread : sent operands to server
+msg from Server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 1, other : 4
+change:
+returning
+msg from Server
+after getServerIdleThreadIndex : 1004
+mode : 2, other : 6
+answer from Server : 6
+send Calculation to Server : 1004
+msg from Server
+Send thread : Got Message
+mode : 2, other : 6
+answer from Server : 6
+i : 53
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+Send thread : sent operands to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 2, other : 1
+answer from Server : 1
+msg from Server
+mode : 1, other : 5
+change:
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 2, other : 1
+answer from Server : 1
+returning
+after getServerIdleThreadIndex : 1005
+send Calculation to Server : 1005
+Send thread : Got Message
+i : 54
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+Send thread : sent operands to server
+mode : 2, other : 1
+answer from Server : 1
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 6
+change:
+returning
+msg from Server
+after getServerIdleThreadIndex : 1006
+send Calculation to Server : 1006
+mode : 2, other : 1
+answer from Server : 1
+i : 55
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+Send thread : Got Message
+Send thread : sent operands to server
+msg from Server
+mode : 1, other : 0
+change:
+msg from Server
+mode : 2, other : -2
+answer from Server : -2
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+returning
+after getServerIdleThreadIndex : 0
+send Calculation to Server : 0
+Send thread : Got Message
+i : 56
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+msg from Server
+mode : 2, other : -5
+answer from Server : -5
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 1, other : 1
+change:
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+returning
+after getServerIdleThreadIndex : 1
+send Calculation to Server : 1
+Send thread : Got Message
+Send thread : sent operands to server
+i : 57
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 1, other : 2
+change:
+msg from Server
+returning
+mode : 2, other : 6
+answer from Server : 6
+after getServerIdleThreadIndex : 2
+send Calculation to Server : 2
+Send thread : Got Message
+i : 58
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 1, other : 3
+change:
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+returning
+after getServerIdleThreadIndex : 3
+send Calculation to Server : 3
+Send thread : Got Message
+i : 59
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 7
+change:
+msg from Server
+returning
+after getServerIdleThreadIndex : 1007
+send Calculation to Server : 1007
+Send thread : Got Message
+mode : 2, other : -5
+answer from Server : -5
+Send thread : sent operands to server
+i : 60
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 4
+change:
+msg from Server
+mode : 2, other : 8
+answer from Server : 8
+returning
+after getServerIdleThreadIndex : 4
+send Calculation to Server : 4
+i : 61
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 1, other : 5
+change:
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+returning
+after getServerIdleThreadIndex : 5
+send Calculation to Server : 5
+Send thread : Got Message
+i : 62
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : 1
+answer from Server : 1
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 1, other : 6
+change:
+msg from Server
+mode : 2, other : 1
+answer from Server : 1
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+returning
+after getServerIdleThreadIndex : 6
+send Calculation to Server : 6
+Send thread : Got Message
+i : 63
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 1, other : 7
+change:
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+returning
+after getServerIdleThreadIndex : 7
+send Calculation to Server : 7
+Send thread : Got Message
+i : 64
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+answer : 6
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+start Calculation
+i : 65
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+answer : 5
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+start Calculation
+i : 66
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+answer : 1
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+start Calculation
+i : 67
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+answer : 1
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+start Calculation
+i : 68
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 2
+change:
+msg from Server
+mode : 2, other : -5
+answer from Server : -5
+returning
+after getServerIdleThreadIndex : 1002
+send Calculation to Server : 1002
+i : 69
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+Send thread : Got Message
+Send thread : sent operands to server
+msg from Server
+mode : 1, other : 0
+change:
+msg from Server
+returning
+mode : 2, other : 1
+answer from Server : 1
+after getServerIdleThreadIndex : 0
+send Calculation to Server : 0
+i : 70
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : -2
+answer from Server : -2
+msg from Server
+mode : 1, other : 1
+change:
+msg from Server
+returning
+mode : 2, other : -2
+answer from Server : -2
+after getServerIdleThreadIndex : 1
+send Calculation to Server : 1
+i : 71
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : -5
+answer from Server : -5
+msg from Server
+mode : 1, other : 2
+change:
+msg from Server
+returning
+mode : 2, other : -5
+answer from Server : -5
+after getServerIdleThreadIndex : 2
+send Calculation to Server : 2
+i : 72
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 0
+change:
+msg from Server
+returning
+mode : 2, other : 6
+answer from Server : 6
+after getServerIdleThreadIndex : 1000
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+send Calculation to Server : 1000
+msg from Server
+mode : 2, other : 8
+answer from Server : 8
+Send thread : Got Message
+i : 73
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 2, other : 8
+answer from Server : 8
+msg from Server
+mode : 1, other : 3
+change:
+returning
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+after getServerIdleThreadIndex : 3
+send Calculation to Server : 3
+Send thread : Got Message
+i : 74
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : 5
+answer from Server : 5
+msg from Server
+mode : 1, other : 4
+change:
+msg from Server
+mode : 2, other : 5
+answer from Server : 5
+returning
+after getServerIdleThreadIndex : 4
+send Calculation to Server : 4
+Send thread : Got Message
+i : 75
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 1
+change:
+msg from Server
+returning
+mode : 2, other : 6
+answer from Server : 6
+after getServerIdleThreadIndex : 1001
+msg from Server
+send Calculation to Server : 1001
+mode : 2, other : 8
+answer from Server : 8
+i : 76
+msg from Server
+Send thread : Got Message
+mode : 2, other : -5
+answer from Server : -5
+Send thread : sent operands to server
+before getServerIdleThreadIndex
+msg from Server
+mode : 2, other : 5
+answer from Server : 5
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+msg from Server
+mode : 2, other : 8
+answer from Server : 8
+msg from Server
+mode : 2, other : -5
+answer from Server : -5
+msg from Server
+mode : 2, other : 5
+answer from Server : 5
+mode : 1, other : 5
+change:
+returning
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+after getServerIdleThreadIndex : 5
+send Calculation to Server : 5
+Send thread : Got Message
+i : 77
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : -8
+answer from Server : -8
+msg from Server
+mode : 1, other : 6
+change:
+msg from Server
+mode : 2, other : -8
+answer from Server : -8
+returning
+after getServerIdleThreadIndex : 6
+send Calculation to Server : 6
+i : 78
+Send thread : Got Message
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : 2
+answer from Server : 2
+msg from Server
+mode : 1, other : 7
+change:
+msg from Server
+mode : 2, other : 2
+answer from Server : 2
+returning
+after getServerIdleThreadIndex : 7
+send Calculation to Server : 7
+Send thread : Got Message
+i : 79
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 3
+change:
+msg from Server
+mode : 2, other : 8
+answer from Server : 8
+msg from Server
+mode : 2, other : -5
+answer from Server : -5
+msg from Server
+mode : 2, other : 5
+answer from Server : 5
+msg from Server
+mode : 2, other : 4
+answer from Server : 4
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+returning
+after getServerIdleThreadIndex : 1003
+send Calculation to Server : 1003
+Send thread : Got Message
+i : 80
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : sent operands to server
+Send thread : send num to server
+msg from Server
+msg from Server
+mode : 2, other : -5
+answer from Server : -5
+msg from Server
+mode : 2, other : 5
+answer from Server : 5
+msg from Server
+mode : 2, other : 4
+answer from Server : 4
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 4
+change:
+msg from Server
+returning
+mode : 2, other : -5
+answer from Server : -5
+after getServerIdleThreadIndex : 1004
+send Calculation to Server : 1004
+msg from Server
+i : 81
+before getServerIdleThreadIndex
+Send thread : Got Message
+mode : 2, other : 5
+answer from Server : 5
+msg from Server
+mode : 2, other : 4
+answer from Server : 4
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+Send thread : send num to server
+Send thread : Got Message
+Send thread : sent operands to server
+msg from Server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+mode : 2, other : 5
+answer from Server : 5
+msg from Server
+mode : 2, other : 4
+answer from Server : 4
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 1, other : 5
+change:
+msg from Server
+returning
+mode : 2, other : 5
+answer from Server : 5
+msg from Server
+mode : 2, other : 4
+answer from Server : 4
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+after getServerIdleThreadIndex : 1005
+send Calculation to Server : 1005
+Send thread : Got Message
+i : 82
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : sent operands to server
+Send thread : send num to server
+msg from Server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+mode : 2, other : 4
+answer from Server : 4
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 1, other : 6
+change:
+msg from Server
+mode : 2, other : 4
+answer from Server : 4
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+returning
+after getServerIdleThreadIndex : 1006
+send Calculation to Server : 1006
+Send thread : Got Message
+i : 83
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : sent operands to server
+Send thread : send num to server
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 7
+change:
+msg from Server
+returning
+mode : 2, other : 6
+answer from Server : 6
+after getServerIdleThreadIndex : 1007
+send Calculation to Server : 1007
+Send thread : Got Message
+i : 84
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+Send thread : sent operands to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+answer : 2
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+start Calculation
+i : 85
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+answer : 6
+msg from Server
+mode : 1, other : 0
+change:
+returning
+msg from Server
+after getServerIdleThreadIndex : 0
+mode : 2, other : 1
+answer from Server : 1
+send Calculation to Server : 0
+Send thread : Got Message
+i : 86
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+start Calculation
+i : 87
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+answer : 8
+msg from Server
+mode : 1, other : 1
+change:
+returning
+msg from Server
+after getServerIdleThreadIndex : 1
+mode : 2, other : 6
+answer from Server : 6
+send Calculation to Server : 1
+msg from Server
+Send thread : Got Message
+mode : 2, other : 4
+answer from Server : 4
+Send thread : sent operands to server
+i : 88
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : 4
+answer from Server : 4
+msg from Server
+mode : 1, other : 2
+change:
+returning
+msg from Server
+after getServerIdleThreadIndex : 2
+start Calculation
+mode : 2, other : 4
+answer from Server : 4
+i : 89
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 2
+change:
+returning
+msg from Server
+after getServerIdleThreadIndex : 2
+mode : 2, other : 4
+answer from Server : 4
+send Calculation to Server : 2
+msg from Server
+Send thread : Got Message
+mode : 2, other : 6
+i : 90
+answer from Server : 6
+Send thread : sent operands to server
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 2, other : -4
+answer from Server : -4
+msg from Server
+mode : 1, other : 3
+change:
+returning
+msg from Server
+after getServerIdleThreadIndex : 3
+mode : 2, other : 6
+answer from Server : 6
+send Calculation to Server : 3
+msg from Server
+mode : 2, other : -4
+answer from Server : -4
+i : 91
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+answer : 6
+msg from Server
+mode : 2, other : -4
+answer from Server : -4
+msg from Server
+mode : 1, other : 4
+change:
+returning
+after getServerIdleThreadIndex : 4
+send Calculation to Server : 4
+Send thread : Got Message
+msg from Server
+i : 92
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+mode : 2, other : -4
+answer from Server : -4
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 2
+change:
+msg from Server
+returning
+mode : 2, other : 6
+answer from Server : 6
+after getServerIdleThreadIndex : 1002
+start Calculation
+i : 93
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 5
+change:
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 2, other : -4
+answer from Server : -4
+returning
+after getServerIdleThreadIndex : 5
+send Calculation to Server : 5
+Send thread : Got Message
+Send thread : sent operands to server
+i : 94
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : -4
+answer from Server : -4
+msg from Server
+mode : 1, other : 6
+change:
+msg from Server
+mode : 2, other : -4
+answer from Server : -4
+returning
+after getServerIdleThreadIndex : 6
+send Calculation to Server : 6
+Send thread : Got Message
+i : 95
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 2, other : -4
+answer from Server : -4
+msg from Server
+mode : 1, other : 7
+change:
+msg from Server
+mode : 2, other : -4
+answer from Server : -4
+returning
+after getServerIdleThreadIndex : 7
+send Calculation to Server : 7
+Send thread : Got Message
+i : 96
+before getServerIdleThreadIndex
+Send thread : sent operands to server
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 0
+change:
+msg from Server
+mode : 2, other : -5
+answer from Server : -5
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+returning
+after getServerIdleThreadIndex : 1000
+send Calculation to Server : 1000
+Send thread : Got Message
+i : 97
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : sent operands to server
+Send thread : send num to server
+msg from Server
+mode : 2, other : 6
+answer from Server : 6
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 2
+change:
+msg from Server
+returning
+mode : 2, other : 6
+after getServerIdleThreadIndex : 1002
+send Calculation to Server : 1002
+Send thread : Got Message
+Send thread : sent operands to server
+answer from Server : 6
+i : 98
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 1
+change:
+msg from Server
+returning
+after getServerIdleThreadIndex : 1001
+send Calculation to Server : 1001
+mode : 2, other : 1
+answer from Server : 1
+Send thread : Got Message
+i : 99
+Send thread : sent operands to server
+before getServerIdleThreadIndex
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+after getServerIdleThreadIndex : -1
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : -1
+change:
+returning
+Send thread : Got Message
+Send thread : send num to server
+msg from Server
+mode : 1, other : 3
+change:
+msg from Server
+returning
+after getServerIdleThreadIndex : 1003
+send Calculation to Server : 1003
+mode : 2, other : 1
+answer from Server : 1
+Send thread : Got Message
+Send thread : sent operands to server
+answer : 1
+answer : 6
+answer : 6
+answer : 6
