@@ -16,7 +16,7 @@ public class RunnableDistribution_Client {
     static String[] ips;
     static int[] ports;
     static Socket[] sockets;
-    static int numServers = 2;
+    static int numServers = 1;
     static int numThread = 4;
     static SendThread[] sendThreads;
     static ReadThread[] readThreads;
@@ -26,18 +26,18 @@ public class RunnableDistribution_Client {
         ips = new String[numServers];
         ports = new int[numServers];
         sockets = new Socket[numServers];
-        ips[0] = "127.0.0.1";
+        ips[0] = "210.107.198.213";
 //        Scanner sc = new Scanner(System.in);
-        ips[0] = args[1];
-        ips[1] = args[2];
+//        ips[0] = args[1];
+//        ips[1] = args[2];
         ports[0] = 21234;
-        ports[1] = 21234;
+//        ports[1] = 21234;
         sendThreads = new SendThread[numServers];
         readThreads = new ReadThread[numServers];
 //        SocketOutputThread[] SocketOutputThreads = new SocketOutputThread[numServers];
 
-//        String nameTestFile = "../../TestFiles/TestFile.txt";
-        String nameTestFile = args[3];
+        String nameTestFile = "../../TestFiles/TestFile.txt";
+//        String nameTestFile = args[3];
         File file = new File(nameTestFile);
         List<String> allLines;
         try {
