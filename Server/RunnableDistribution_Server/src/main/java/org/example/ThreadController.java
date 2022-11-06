@@ -56,7 +56,9 @@ public class ThreadController {
     }
     public Thread getThread(int index)
     {
-        return threads[index];
+        Thread thisThread = threads[index];
+        threads[index] = null;
+        return thisThread;
     }
     public void setRunnable(Runnable runnable, int index)
     {

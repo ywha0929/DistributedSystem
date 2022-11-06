@@ -16,7 +16,7 @@ public class RunnableDistribution_Client {
     static String[] ips;
     static int[] ports;
     static Socket[] sockets;
-    static int numServers = 1;
+    static int numServers = 2;
     static int numThread = 4;
     static SendThread[] sendThreads;
     static ReadThread[] readThreads;
@@ -30,6 +30,7 @@ public class RunnableDistribution_Client {
 //        Scanner sc = new Scanner(System.in);
         ips[0] = args[1];
         ports[0] = 21234;
+        ports[1] = 21234;
         sendThreads = new SendThread[numServers];
         readThreads = new ReadThread[numServers];
 //        SocketOutputThread[] SocketOutputThreads = new SocketOutputThread[numServers];
@@ -191,7 +192,9 @@ public class RunnableDistribution_Client {
                 System.err.println("returning");
                 readThreads[i].isIndex.set(false);
 //                readThreads[i].isCheck = true;
-                return readThreads[i].index;
+                if(readThreads[i].index == -1)
+                    continue;
+                return readThreads[i].index + i*1000;
 
             }catch(Exception e){
                 e.printStackTrace();

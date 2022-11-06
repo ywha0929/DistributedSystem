@@ -1,9 +1,6 @@
 package org.example;
 
-import java.io.ByteArrayOutputStream;
-import java.io.ObjectOutputStream;
-import java.io.OutputStream;
-import java.io.Serializable;
+import java.io.*;
 
 public class DistributableRunnable implements Serializable, Runnable {
     Operands operands;
@@ -64,6 +61,15 @@ public class DistributableRunnable implements Serializable, Runnable {
 //        }
         System.out.println("answer : "+result);
         System.err.println("answer : "+result);
+        DataOutputStream dataOutputStream = new DataOutputStream(outputStream);
+        try {
+            dataOutputStream.writeInt(2);
+            dataOutputStream.writeInt(result);
+            dataOutputStream.flush();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
         threadController.isOccupied[threadIndex] = false;
 
     }

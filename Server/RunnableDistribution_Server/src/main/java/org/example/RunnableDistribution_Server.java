@@ -97,27 +97,27 @@ class ServerThread extends Thread {
                 e.printStackTrace();
                 return;
             }
-            for(int i = 0; i<numThread; i++)
-            {
-                Thread thisThread = threadController.getThread(i);
-                if(thisThread != null && thisThread.isAlive() == false)
-                {
-                    DistributableRunnable thisRunnable = (DistributableRunnable) threadController.getRunnable(i);
-                    int result = thisRunnable.getResult();
-
-
-                    try {
-                        DataOutputStream dataOutputStream = new DataOutputStream(socket.getOutputStream());
-                        dataOutputStream.writeInt(2);
-                        dataOutputStream.writeInt(result);
-                        dataOutputStream.flush();
-//                        outputStream.write(byteArrayOutputStream.toByteArray());
-                    } catch (IOException e) {
-                        throw new RuntimeException(e);
-                    }
-
-                }
-            }
+//            for(int i = 0; i<numThread; i++)
+//            {
+//                Thread thisThread = threadController.getThread(i);
+//                if(thisThread != null && thisThread.isAlive() == false)
+//                {
+//                    DistributableRunnable thisRunnable = (DistributableRunnable) threadController.getRunnable(i);
+//                    int result = thisRunnable.getResult();
+//
+//
+//                    try {
+//                        DataOutputStream dataOutputStream = new DataOutputStream(socket.getOutputStream());
+//                        dataOutputStream.writeInt(2);
+//                        dataOutputStream.writeInt(result);
+//                        dataOutputStream.flush();
+////                        outputStream.write(byteArrayOutputStream.toByteArray());
+//                    } catch (IOException e) {
+//                        throw new RuntimeException(e);
+//                    }
+//
+//                }
+//            }
         }
     }
 }
