@@ -11,7 +11,7 @@ public class RunnableDistribution_Server {
 
     public static void main(String[] args) throws IOException {
 
-        System.out.println("Hello world!");
+        System.err.println("Hello world!");
         int port = 21234;
 
 
@@ -49,7 +49,7 @@ class ServerThread extends Thread {
         }
         while(true)
         {
-            System.out.println("Server Loop");
+            System.err.println("Server Loop");
             try {
                 while(inputStream.available() < 0);
 
@@ -64,17 +64,17 @@ class ServerThread extends Thread {
                 int mode = dataInputStream.readInt();
                 if(mode == 1)
                 {
-                    System.out.println("got message 1 from client");
+                    System.err.println("got message 1 from client");
                     DataOutputStream dataOutputStream = new DataOutputStream(socket.getOutputStream());
                     dataOutputStream.writeInt(1);
                     dataOutputStream.writeInt(threadController.getIdleThreadIndex());
                     dataOutputStream.flush();
                     //outputStream.write(byteArrayOutputStream.toByteArray());
-                    System.out.println("send message to Client");
+                    System.err.println("send message to Client");
                 }
                 else if(mode == 2)
                 {
-                    System.out.println("got message 2 from client");
+                    System.err.println("got message 2 from client");
 //                        while(inputStream.available() == -1);
 //                        inputStream.read(buffer);
 //                        System.out.println("got parameters");

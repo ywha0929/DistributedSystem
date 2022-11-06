@@ -24,14 +24,14 @@ public class SendThread extends Thread
         {
             while (msgQ.msgQueue.isEmpty())
                 for(int j = 0; j<5000; j++);
-            System.out.println("Send thread : Got Message");
+            System.err.println("Send thread : Got Message");
             Message msg = msgQ.getMessage();
             try {
                 if(msg.getType() == 1)
                 {
                     dataOutputStream.writeInt(msg.getParameter());
                     dataOutputStream.flush();
-                    System.out.println("Send thread : send num to server");
+                    System.err.println("Send thread : send num to server");
                     //outputStream.write(byteArrayOutputStream.toByteArray());
                 }
                 else if(msg.getType() == 2)
@@ -39,7 +39,7 @@ public class SendThread extends Thread
                     dataOutputStream.writeInt(2);
                     dataOutputStream.write((byte[])msg.getObj());
                     dataOutputStream.flush();
-                    System.out.println("Send thread : sent operands to server");
+                    System.err.println("Send thread : sent operands to server");
                     //outputStream.write(byteArrayOutputStream.toByteArray());
                 }
             } catch (IOException e) {

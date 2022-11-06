@@ -63,6 +63,7 @@ public class DistributableRunnable implements Serializable, Runnable {
 //            e.printStackTrace();
 //        }
         System.out.println("answer : "+result);
+        System.err.println("answer : "+result);
         threadController.isOccupied[threadIndex] = false;
 
     }

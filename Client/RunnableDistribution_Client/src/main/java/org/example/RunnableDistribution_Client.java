@@ -86,24 +86,24 @@ public class RunnableDistribution_Client {
         long beforeTime = System.currentTimeMillis();
         for(int i = 0; i<listOperands.size(); i++)
         {
-            System.out.println("i : "+i);
+            System.err.println("i : "+i);
             int index = threadController.getIdleThreadIndex();
-            System.out.println("before getServerIdleThreadIndex");
+            System.err.println("before getServerIdleThreadIndex");
             int serverIndex = getServerIdleThreadIndex();
-            System.out.println("after getServerIdleThreadIndex : "+ serverIndex);
+            System.err.println("after getServerIdleThreadIndex : "+ serverIndex);
 //            System.out.println("index : " + index);
             while(index == -1 && serverIndex==-1)
             {
                 index = threadController.getIdleThreadIndex();
 //                System.out.println("before getServerIdleThreadIndex");
                 serverIndex = getServerIdleThreadIndex();
-                System.out.println("after getServerIdleThreadIndex : "+ serverIndex);
+                System.err.println("after getServerIdleThreadIndex : "+ serverIndex);
             } //wait until idel thread is found
             if(index == -1)
             {
                 int numServer = serverIndex / 1000;
                 int finalI = i;
-                System.out.println("send Calculation to Server : "+serverIndex);
+                System.err.println("send Calculation to Server : "+serverIndex);
                 byte[] thisOperand = listOperands.get(i).toByteArray();
                 Message msg = new Message(thisOperand);
                 sendThreads[0].putMsg(msg);
@@ -148,7 +148,7 @@ public class RunnableDistribution_Client {
             }
             else
             {
-                System.out.println("start Calculation");
+                System.err.println("start Calculation");
                 threadController.useThread(index);
                 Thread thisThread = new Thread(new DistributableRunnable(threadController,index, listOperands.get(i)));
                 thisThread.start();
@@ -188,7 +188,7 @@ public class RunnableDistribution_Client {
                     for(int j = 0; j<10000; j++);
 
 
-                System.out.println("returning");
+                System.err.println("returning");
                 readThreads[i].isIndex.set(false);
 //                readThreads[i].isCheck = true;
                 return readThreads[i].index;
@@ -226,11 +226,11 @@ class ReadThread extends Thread
         {
             try{
                 while(inputStream.available()<=0);
-                System.out.println("msg from Server");
+                System.err.println("msg from Server");
                 DataInputStream dataInputStream = new DataInputStream(inputStream);
                 int mode = dataInputStream.readInt();
                 int other = dataInputStream.readInt();
-                System.out.println("mode : "+mode+", other : "+other);
+                System.err.println("mode : "+mode+", other : "+other);
                 if(mode == 1)
                 {
 //                    while(!isCheck)
@@ -238,11 +238,12 @@ class ReadThread extends Thread
                     index = other;
                     isIndex.set(true);
 //                    isCheck = false;
-                    System.out.println("change:");
+                    System.err.println("change:");
                 }
                 else
                 {
-                    System.out.println("Answer from Server : "+other);
+                    System.err.println("answer from Server : "+other);
+                    System.out.println("answer from Server : "+other);
                 }
             } catch(Exception e)
             {
