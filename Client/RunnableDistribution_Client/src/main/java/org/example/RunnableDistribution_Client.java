@@ -29,6 +29,7 @@ public class RunnableDistribution_Client {
         ips[0] = "127.0.0.1";
 //        Scanner sc = new Scanner(System.in);
         ips[0] = args[1];
+        ips[1] = args[2];
         ports[0] = 21234;
         ports[1] = 21234;
         sendThreads = new SendThread[numServers];
@@ -36,7 +37,7 @@ public class RunnableDistribution_Client {
 //        SocketOutputThread[] SocketOutputThreads = new SocketOutputThread[numServers];
 
 //        String nameTestFile = "../../TestFiles/TestFile.txt";
-        String nameTestFile = args[2];
+        String nameTestFile = args[3];
         File file = new File(nameTestFile);
         List<String> allLines;
         try {
