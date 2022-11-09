@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 import java.util.concurrent.atomic.AtomicBoolean;
-
+//import org.example.Operands;
 public class RunnableDistribution_Client {
     static String[] ips;
     static int[] ports;
@@ -26,7 +26,7 @@ public class RunnableDistribution_Client {
         ips = new String[numServers];
         ports = new int[numServers];
         sockets = new Socket[numServers];
-        ips[0] = "210.107.198.213";
+        ips[0] = "127.0.0.1";
 //        Scanner sc = new Scanner(System.in);
 //        ips[0] = args[1];
 //        ips[1] = args[2];
@@ -74,7 +74,7 @@ public class RunnableDistribution_Client {
                 sockets[i] = new Socket(ips[i],ports[i]);
                 sendThreads[i] = new SendThread(sockets[i]);
                 sendThreads[i].start();
-                readThreads[i] = new ReadThread(sockets[i]);
+                readThreads[i] = new ReadThread(sockets[i],i);
                 readThreads[i].start();
 //                SocketOutputThreads[i] = new SocketOutputThread(socket);
 
@@ -215,11 +215,13 @@ class ReadThread extends Thread
     AtomicBoolean isIndex = new AtomicBoolean();
     int index;
     byte[] buffer;
+    int serverNum;
     boolean isCheck;
-    public ReadThread(Socket socket) throws IOException {
+    public ReadThread(Socket socket, int serverNum) throws IOException {
         inputStream = socket.getInputStream();
         buffer = new byte[16];
         isIndex.set(false);
+        this.serverNum = serverNum;
 //        isCheck = true;
         index = 0;
     }
@@ -246,8 +248,8 @@ class ReadThread extends Thread
                 }
                 else
                 {
-                    System.err.println("answer from Server : "+other);
-                    System.out.println("answer from Server : "+other);
+                    System.err.println("answer from Server["+serverNum+"] : "+other);
+                    System.out.println("answer from Server["+serverNum+"] : "+other);
                 }
             } catch(Exception e)
             {

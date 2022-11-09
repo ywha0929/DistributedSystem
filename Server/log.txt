@@ -142,263 +142,32 @@ Server Loop
 got message 1 from client
 send message to Client
 Server Loop
-answer : 1
-answer : 1
 got message 1 from client
 send message to Client
-Server Loop
-answer : 6
-got message 2 from client
 Server Loop
 got message 1 from client
 send message to Client
 Server Loop
-got message 2 from client
+got message 1 from client
+send message to Client
 Server Loop
 got message 1 from client
 send message to Client
 Server Loop
-got message 2 from client
-Server Loop
+answer : 4
 got message 1 from client
 send message to Client
 Server Loop
-answer : 1
-answer : 1
-got message 1 from client
-send message to Client
-Server Loop
-answer : 1
-answer : 6
 got message 2 from client
 Server Loop
 got message 1 from client
 send message to Client
 Server Loop
 answer : 6
-got message 2 from client
-Server Loop
 got message 1 from client
 send message to Client
 Server Loop
 got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : -6
-got message 1 from client
-send message to Client
-Server Loop
-answer : 1
-answer : 5
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : -4
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 8
-answer : 6
-got message 1 from client
-send message to Client
-Server Loop
-answer : 1
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
 Server Loop
 got message 1 from client
 send message to Client
@@ -416,7 +185,24 @@ got message 1 from client
 send message to Client
 Server Loop
 answer : 6
+got message 1 from client
+send message to Client
+Server Loop
 answer : 1
+answer : 6
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 1
+got message 2 from client
+Server Loop
 got message 1 from client
 send message to Client
 Server Loop
@@ -431,184 +217,14 @@ Server Loop
 got message 1 from client
 send message to Client
 Server Loop
-answer : -5
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
 answer : 6
 got message 1 from client
 send message to Client
 Server Loop
-answer : -4
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
 got message 2 from client
 Server Loop
 got message 1 from client
 send message to Client
-Server Loop
-answer : 8
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
-answer : -5
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 1
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : -5
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : -2
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
-answer : 6
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
 Server Loop
 got message 1 from client
 send message to Client
@@ -698,24 +314,6 @@ answer : 8
 got message 1 from client
 send message to Client
 Server Loop
-answer : 6
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 1
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
 got message 2 from client
 Server Loop
 got message 1 from client
@@ -730,113 +328,19 @@ Server Loop
 got message 1 from client
 send message to Client
 Server Loop
-answer : -5
-answer : 6
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
 got message 1 from client
 send message to Client
 Server Loop
 answer : 6
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 8
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : -2
-got message 1 from client
-send message to Client
-Server Loop
-answer : -5
 got message 1 from client
 send message to Client
 Server Loop
@@ -847,6 +351,15 @@ send message to Client
 Server Loop
 answer : 6
 answer : 6
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 6
 got message 2 from client
 Server Loop
 got message 1 from client
@@ -856,8 +369,6 @@ got message 2 from client
 Server Loop
 got message 1 from client
 send message to Client
-Server Loop
-got message 2 from client
 Server Loop
 got message 1 from client
 send message to Client
@@ -869,6 +380,13 @@ got message 1 from client
 send message to Client
 Server Loop
 answer : 5
+answer : 1
+got message 1 from client
+send message to Client
+Server Loop
+answer : 6
+got message 2 from client
+Server Loop
 got message 1 from client
 send message to Client
 Server Loop
@@ -877,115 +395,156 @@ Server Loop
 got message 1 from client
 send message to Client
 Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
 answer : 6
 got message 1 from client
 send message to Client
 Server Loop
-answer : -8
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 8
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 6
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 5
+answer : 1
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
 got message 2 from client
 Server Loop
 got message 1 from client
 send message to Client
 Server Loop
 answer : 2
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 1
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
-got message 2 from client
-Server Loop
 got message 1 from client
 send message to Client
 Server Loop
@@ -1006,7 +565,157 @@ Server Loop
 got message 1 from client
 send message to Client
 Server Loop
-answer : -5
+answer : 6
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 4
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 6
+got message 1 from client
+send message to Client
+Server Loop
+answer : 6
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 6
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 8
 got message 1 from client
 send message to Client
 Server Loop
@@ -1016,117 +725,21 @@ Server Loop
 got message 1 from client
 send message to Client
 Server Loop
-answer : -4
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 1
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
 answer : 6
-got message 1 from client
-send message to Client
-Server Loop
-answer : -4
 got message 2 from client
 Server Loop
 got message 1 from client
 send message to Client
 Server Loop
-answer : -4
 got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
 Server Loop
 got message 1 from client
 send message to Client
 Server Loop
 answer : 1
-got message 2 from client
-Server Loop
 got message 1 from client
 send message to Client
 Server Loop
@@ -1144,26 +757,326 @@ Server Loop
 got message 1 from client
 send message to Client
 Server Loop
-answer : -8
 got message 1 from client
 send message to Client
-Server Loop
-answer : 1
-got message 2 from client
 Server Loop
 got message 1 from client
 send message to Client
 Server Loop
-got message 2 from client
+got message 1 from client
+send message to Client
 Server Loop
 got message 1 from client
 send message to Client
 Server Loop
-answer : 6
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
 got message 1 from client
 send message to Client
 Server Loop
 answer : 5
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 5
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 1
+got message 1 from client
+send message to Client
+Server Loop
+answer : 8
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 6
+got message 1 from client
+send message to Client
+Server Loop
+answer : 4
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 1
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 5
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 5
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 6
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 4
+got message 1 from client
+send message to Client
+Server Loop
+answer : 5
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 6
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 6
+got message 1 from client
+send message to Client
+Server Loop
+answer : 1
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 6
 got message 2 from client
 Server Loop
 got message 1 from client
@@ -1218,6 +1131,189 @@ send message to Client
 Server Loop
 got message 1 from client
 send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 5
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 5
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 6
+answer : 1
+got message 1 from client
+send message to Client
+Server Loop
+answer : 6
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 5
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 5
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 6
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+got message 1 from client
+send message to Client
+Server Loop
+answer : 5
+got message 1 from client
+send message to Client
+Server Loop
+got message 2 from client
 Server Loop
 got message 1 from client
 send message to Client
@@ -1250,22 +1346,13 @@ answer : 2
 got message 1 from client
 send message to Client
 Server Loop
-answer : 6
 got message 2 from client
 Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
-got message 1 from client
-send message to Client
-Server Loop
+answer : 2
+answer : 4
 answer : 1
+answer : 8
+answer : 6
+answer : 6
 answer : 1
 answer : 6
-answer : 6
-answer : -6
-answer : -5
-java.io.EOFException
-	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
-	at org.example.ServerThread.run(RunnableDistribution_Server.java:64)

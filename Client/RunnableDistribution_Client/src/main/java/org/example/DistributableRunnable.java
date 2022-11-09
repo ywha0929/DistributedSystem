@@ -3,7 +3,7 @@ package org.example;
 import java.io.Serializable;
 
 public class DistributableRunnable implements Serializable, Runnable {
-    Operands operands;
+    org.example.Operands operands;
     ThreadController threadController;
     int threadIndex;
     int result;

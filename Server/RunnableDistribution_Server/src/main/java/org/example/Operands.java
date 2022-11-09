@@ -46,7 +46,7 @@ public class Operands implements Serializable {
         this.operands = new int[this.size];
         for(int i=0; i<this.size; i++)
         {
-            operands[i] = source[i];
+            operands[i] = source[i]& 0xFF;
         }
     }
 }
