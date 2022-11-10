@@ -120,11 +120,11 @@ class ServerThread extends Thread {
                     Operands operands = new Operands();
                     operands.fromByteArray(operandByte);
 
-                    for(int i= 0; i< operands.getSize(); i++)
-                    {
-                        System.out.print(operands.get(i) + " ");
-                    }
-                    System.out.println("");
+//                    for(int i= 0; i< operands.getSize(); i++)
+//                    {
+//                        System.out.print(operands.get(i) + " ");
+//                    }
+//                    System.out.println("");
 
 
                     Runnable thisRunnable = new DistributableRunnable(threadController,threadController.getIdleThreadIndex(),operands, outputStream, taskNum, msgQ);
