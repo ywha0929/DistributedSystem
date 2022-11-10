@@ -82,7 +82,7 @@ public class RunnableDistribution_Client {
                 ports[i] =  dataInputStream.readInt();
                 dataInputStream.close();
                 socket.close();
-
+                System.err.println("got port : "+ports[i]);
                 sockets[i] = new Socket(ips[i],ports[i]);
                 for(int j = 0; j< 500; j++);
                 sendThreads[i] = new SendThread(sockets[i]);
