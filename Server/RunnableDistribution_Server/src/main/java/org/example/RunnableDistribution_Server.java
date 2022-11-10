@@ -10,10 +10,10 @@ public class RunnableDistribution_Server {
     }
     static ServerSocket serverSocket = null;
     static Socket socket = null;
-    static int numThread = 4;
+    static int numThread = 8;
     static int i = 1;
     public static void main(String[] args) throws IOException {
-
+        numThread = Integer.parseInt(args[1]);
         ThreadController.getInstance();
         ThreadController.getInstance().setNumThread(numThread);
         System.err.println("Hello world!");
