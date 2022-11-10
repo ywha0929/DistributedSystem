@@ -63,6 +63,7 @@ class ServerThread extends Thread {
 //        this.port = port;
 //        ServerSocket serverSocket = new ServerSocket(port);
 //        this.socket = serverSocket.accept();
+        this.socket = socket;
         threadController = ThreadController.getInstance();
         SendThread sendThread = new SendThread(socket);
         this.msgQ = sendThread.msgQ;

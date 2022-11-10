@@ -26,6 +26,8 @@ public class SendThread extends Thread
                 for(int j = 0; j<5000; j++);
             System.err.println("Send thread : Got Message");
             Message msg = msgQ.getMessage();
+            if(msg == null)
+                continue;
             try {
                 if(msg.getType() == 1)
                 {
