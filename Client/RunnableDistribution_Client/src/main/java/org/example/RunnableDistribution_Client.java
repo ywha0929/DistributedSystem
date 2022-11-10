@@ -24,6 +24,7 @@ public class RunnableDistribution_Client {
 //    static List<Map<Integer,Integer>> listAnswer;
     //tatic Thread SendThread;
     public static void main(String[] args) throws IOException {
+        System.out.println("arguments : "+args.length);
         numServers = args.length -2;
         ips = new String[numServers];
 //        ports = new int[numServers];
