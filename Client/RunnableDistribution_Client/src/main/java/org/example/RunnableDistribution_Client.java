@@ -30,7 +30,7 @@ public class RunnableDistribution_Client {
 //        ports = new int[numServers];
         sockets = new Socket[numServers];
 
-        for(int i= 1; i< numServers-1; i++)
+        for(int i= 1; i< args.length-1; i++)
         {
             ips[i-1] = args[i];
             System.out.println(ips[i-1]);
