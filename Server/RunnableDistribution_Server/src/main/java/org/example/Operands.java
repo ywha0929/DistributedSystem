@@ -42,11 +42,16 @@ public class Operands implements Serializable {
 
     public void fromByteArray(byte[] source)
     {
+        for(int i = 0; i< 100; i++)
+        {
+            System.out.print(source[i]);
+        }
+        System.out.println("");
         this.size = source.length;
         this.operands = new int[this.size];
         for(int i=0; i<this.size; i++)
         {
-            operands[i] = source[i]& 0xFF;
+            operands[i] = operands[i] & 0xFF;
         }
     }
 }

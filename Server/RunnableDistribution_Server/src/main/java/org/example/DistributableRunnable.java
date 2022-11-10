@@ -28,8 +28,11 @@ public class DistributableRunnable implements Serializable, Runnable {
     public void run() {
 //        System.out.println(operands.get(0));
 //        System.out.println(result);
-        System.out.println("Distributable runnable : "+operands.getSize());
-
+        System.err.println("Distributable runnable : "+operands.getSize());
+//        for(int i = 0; i< operands.getSize();i++)
+//        {
+//            System.out.println(operands.get(i));
+//        }
         for(int i = 0; i< operands.getSize(); i++)
         {
             for(int j = 0; j< operands.getSize(); j++)

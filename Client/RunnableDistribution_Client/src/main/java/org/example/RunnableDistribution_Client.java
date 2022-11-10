@@ -13,7 +13,7 @@ public class RunnableDistribution_Client {
     static String[] ips;
 //    static int[] ports;
     static Socket[] sockets;
-    static int numServers = 2;
+    static int numServers = 1;
     static int numThread = 4;
     static SendThread[] sendThreads;
     static ReadThread[] readThreads;
@@ -24,7 +24,7 @@ public class RunnableDistribution_Client {
 //    static List<Map<Integer,Integer>> listAnswer;
     //tatic Thread SendThread;
     public static void main(String[] args) throws IOException {
-        System.out.println("arguments : "+args.length);
+        System.err.println("arguments : "+args.length);
         numServers = args.length -2;
         ips = new String[numServers];
 //        ports = new int[numServers];
@@ -35,8 +35,15 @@ public class RunnableDistribution_Client {
             ips[i-1] = args[i];
             System.err.println(ips[i-1]);
         }
+
+
+//        String nameTestFile = "../../TestFiles/TestFile.txt";
+//        ips[0] = "127.0.0.1";
+        String nameTestFile = args[args.length-1];
+
+
 //        ips[1] = "192.168.0.8";
-//        ips[0] = "192.168.0.196";
+
 //        Scanner sc = new Scanner(System.in);
 //        ips[0] = args[1];
 //        ips[1] = args[2];
@@ -46,8 +53,7 @@ public class RunnableDistribution_Client {
         readThreads = new ReadThread[numServers];
 //        SocketOutputThread[] SocketOutputThreads = new SocketOutputThread[numServers];
 
-//        String nameTestFile = "../../TestFiles/TestFile.txt";
-        String nameTestFile = args[3];
+
         File file = new File(nameTestFile);
         List<String> allLines;
         try {
@@ -67,8 +73,8 @@ public class RunnableDistribution_Client {
             for(int i = 0; i< numPerLine; i++)
             {
                 String stringNumber = stringTokenizer.nextToken();
-                //System.out.println(stringNumber);
-                //Integer.parseInt(stringNumber);
+//                System.out.println(stringNumber);
+//                Integer.parseInt(stringNumber);
                 temp.pushOperand(Integer.parseInt(stringNumber));
             }
             listOperands.add(temp);

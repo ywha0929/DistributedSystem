@@ -10,9 +10,9 @@
 int createThreeDigitNumber()
 {
 	int result = 0;
-	while(!(result > 99 && result < 1000))
+	while(!(result > 99 && result < 254))
 	{
-		result = rand()%1000;
+		result = rand()%254;
 	}
 }
 
