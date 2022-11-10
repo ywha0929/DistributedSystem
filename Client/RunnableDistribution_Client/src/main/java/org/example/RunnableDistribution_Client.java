@@ -11,7 +11,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 //import org.example.Operands;
 public class RunnableDistribution_Client {
     static String[] ips;
-    static int[] ports;
+//    static int[] ports;
     static Socket[] sockets;
     static int numServers = 2;
     static int numThread = 4;
@@ -24,17 +24,22 @@ public class RunnableDistribution_Client {
 //    static List<Map<Integer,Integer>> listAnswer;
     //tatic Thread SendThread;
     public static void main(String[] args) throws IOException {
-
+        numServers = args.length -2;
         ips = new String[numServers];
-        ports = new int[numServers];
+//        ports = new int[numServers];
         sockets = new Socket[numServers];
-        ips[1] = "192.168.0.8";
-        ips[0] = "192.168.0.196";
+
+        for(int i= 1; i< numServers; i++)
+        {
+            ips[i-1] = args[i];
+        }
+//        ips[1] = "192.168.0.8";
+//        ips[0] = "192.168.0.196";
 //        Scanner sc = new Scanner(System.in);
 //        ips[0] = args[1];
 //        ips[1] = args[2];
-        ports[0] = 21234;
-        ports[1] = 21234;
+//        ports[0] = 21234;
+//        ports[1] = 21234;
         sendThreads = new SendThread[numServers];
         readThreads = new ReadThread[numServers];
 //        SocketOutputThread[] SocketOutputThreads = new SocketOutputThread[numServers];
@@ -77,7 +82,7 @@ public class RunnableDistribution_Client {
         for(int i= 0; i<numServers; i++)
         {
             try{
-                sockets[i] = new Socket(ips[i],ports[i]);
+                sockets[i] = new Socket(ips[i],21234);
 //                DataInputStream dataInputStream = new DataInputStream(socket.getInputStream());
 //                ports[i] =  dataInputStream.readInt();
 //                dataInputStream.close();
