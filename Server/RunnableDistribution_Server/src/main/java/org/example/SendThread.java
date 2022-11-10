@@ -10,8 +10,10 @@ public class SendThread extends Thread
     OutputStream outputStream;
     DataOutputStream dataOutputStream;
     MessageQueue msgQ;
+    int port;
     public SendThread(Socket socket) throws IOException {
         msgQ = new MessageQueue();
+        port = socket.getLocalPort();
         outputStream =  socket.getOutputStream();
         dataOutputStream = new DataOutputStream(outputStream);
     }
@@ -26,7 +28,7 @@ public class SendThread extends Thread
         {
             while (msgQ.msgQueue.isEmpty())
                 for(int j = 0; j<5000; j++);
-            System.err.println("Send thread : Got Message");
+            System.err.println(port + " : Send thread : Got Message");
             Message msg = msgQ.getMessage();
             try {
                 if(msg.getType() == 1)
@@ -34,7 +36,7 @@ public class SendThread extends Thread
                     dataOutputStream.writeInt(1);
                     dataOutputStream.writeInt(msg.getParameter());
                     dataOutputStream.flush();
-                    System.err.println("Send thread : send num to server");
+                    System.err.println(port + " : Send thread : send num to server");
                     //outputStream.write(byteArrayOutputStream.toByteArray());
                 }
                 else if(msg.getType() == 2)

@@ -27,10 +27,12 @@ public class RunnableDistribution_Server {
     while(true)
     {
         try{
+
             socket = serverSocket.accept();
+            System.out.println("got request");
             DataOutputStream dataOutputStream = new DataOutputStream(socket.getOutputStream());
             dataOutputStream.writeInt(port + i);
-
+            dataOutputStream.flush();
         }catch (Exception e)
         {
             e.printStackTrace();
@@ -57,8 +59,10 @@ class ServerThread extends Thread {
     InputStream inputStream;
     OutputStream  outputStream;
     MessageQueue msgQ;
+    int port;
     byte[] buffer;
     public ServerThread(int port) throws IOException {
+        this.port = port;
         ServerSocket serverSocket = new ServerSocket(port);
         this.socket = serverSocket.accept();
         threadController = ThreadController.getInstance();
@@ -77,7 +81,7 @@ class ServerThread extends Thread {
         }
         while(true)
         {
-            System.err.println("Server Loop");
+            System.err.println(port + " : Server Loop");
             try {
                 while(inputStream.available() < 0);
 
@@ -92,7 +96,7 @@ class ServerThread extends Thread {
                 int mode = dataInputStream.readInt();
                 if(mode == 1)
                 {
-                    System.err.println("got message 1 from client");
+                    System.err.println(port + " : got message 1 from client");
 //                    DataOutputStream dataOutputStream = new DataOutputStream(socket.getOutputStream());
                     Message msg = new Message(threadController.getIdleThreadIndex());
                     msgQ.pushMessage(msg);
@@ -100,18 +104,18 @@ class ServerThread extends Thread {
 //                    dataOutputStream.writeInt(threadController.getIdleThreadIndex());
 //                    dataOutputStream.flush();
                     //outputStream.write(byteArrayOutputStream.toByteArray());
-                    System.err.println("send message to Client");
+                    System.err.println(port + " : send message to Client");
                 }
                 else if(mode == 2)
                 {
-                    System.err.println("got message 2 from client");
+                    System.err.println(port + " : got message 2 from client");
 //                        while(inputStream.available() == -1);
 //                        inputStream.read(buffer);
 //                        System.out.println("got parameters");
 //                        ByteArrayInputStream byteArrayInputStream2 = new ByteArrayInputStream(buffer);
 //                        objectInputStream = new ObjectInputStream(byteArrayInputStream2);
                     int  taskNum = dataInputStream.readInt();
-                    System.err.println("got taskNum : "+taskNum);
+                    System.err.println(port + " : got taskNum : "+taskNum);
                     byte[] operandByte = new byte[180];
                     dataInputStream.read(operandByte);
                     Operands operands = new Operands();
