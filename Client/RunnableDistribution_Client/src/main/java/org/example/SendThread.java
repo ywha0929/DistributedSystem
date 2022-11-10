@@ -18,22 +18,23 @@ public class SendThread extends Thread
     }
     public void putMsg(Message msg)
     {
-        while(isQBusy.get());
-        isQBusy.set(true);
+//        while(isQBusy.get())
+//            for(int j= 0; j<5000; j++);
+//        isQBusy.set(true);
         msgQ.pushMessage(msg);
-        isQBusy.set(false);
+//        isQBusy.set(false);
     }
 
     @Override
     public void run() {
         while (true)
         {
-            while (isQBusy.get() &&  msgQ.msgQueue.isEmpty())
+            while (msgQ.msgQueue.isEmpty())
                 for(int j = 0; j<5000; j++);
-            isQBusy.set(true);
+//            isQBusy.set(true);
             System.err.println("Send thread : Got Message");
             Message msg = msgQ.getMessage();
-            isQBusy.set(false);
+//            isQBusy.set(false);
             if(msg == null)
                 continue;
             try {

@@ -28,7 +28,7 @@ public class RunnableDistribution_Client {
         ips = new String[numServers];
         ports = new int[numServers];
         sockets = new Socket[numServers];
-        ips[0] = "192.168.0.8";
+        ips[0] = "127.0.0.1";
 //        ips[1] = "192.168.0.196";
 //        Scanner sc = new Scanner(System.in);
 //        ips[0] = args[1];
@@ -39,8 +39,8 @@ public class RunnableDistribution_Client {
         readThreads = new ReadThread[numServers];
 //        SocketOutputThread[] SocketOutputThreads = new SocketOutputThread[numServers];
 
-//        String nameTestFile = "../../TestFiles/TestFile.txt";
-        String nameTestFile = args[3];
+        String nameTestFile = "../../TestFiles/TestFile.txt";
+//        String nameTestFile = args[3];
         File file = new File(nameTestFile);
         List<String> allLines;
         try {
@@ -123,7 +123,11 @@ public class RunnableDistribution_Client {
 
                 Message msg = new Message(thisOperand);
                 msg.parameter = i;
+//                while(sendThreads[numServer].isQBusy.get());
+//                sendThreads[numServer].isQBusy.set(true);
                 sendThreads[numServer].putMsg(msg);
+//                sendThreads[numServer].isQBusy.set(false);
+
 //                Thread thread = new Thread(new Runnable() {
 //                    @Override
 //                    public void run() {
@@ -207,7 +211,10 @@ public class RunnableDistribution_Client {
 
             try{
                 Message msg = new Message(1);
+//                while(sendThreads[i].isQBusy.get());
+//                sendThreads[i].isQBusy.set(true);
                 sendThreads[i].putMsg(msg);
+//                sendThreads[i].isQBusy.set(false);
 //                OutputStream outputStream =  sockets[i].getOutputStream();
 //                ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
 //                ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream);
