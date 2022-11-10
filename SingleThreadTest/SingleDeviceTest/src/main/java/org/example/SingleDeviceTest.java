@@ -77,7 +77,7 @@ public class SingleDeviceTest {
         long secDiffTime = (afterTime - beforeTime)/1000;
         for(int i = 0; i< listAnswer.size(); i++)
         {
-            System.out.println(listAnswer.get(i));
+            System.out.println(i + "th answer : "+listAnswer.get(i));
 
         }
         System.out.println("Execution Time : " +secDiffTime);

@@ -66,8 +66,8 @@ public class DistributableRunnable implements Serializable, Runnable {
 //        } catch (Exception e){
 //            e.printStackTrace();
 //        }
-        System.out.println("answer : "+result);
-        System.err.println("answer : "+result);
+        System.out.println(taskNum + "th answer : "+result);
+        System.err.println(taskNum + "th answer : "+result);
         DataOutputStream dataOutputStream = new DataOutputStream(outputStream);
         try {
 //            Message msg = new Message((result+ taskNum * 1000));

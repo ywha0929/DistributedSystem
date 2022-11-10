@@ -52,7 +52,7 @@ public class DistributableRunnable implements Serializable, Runnable {
         SingleDeviceTest.listAnswer.put(taskNum,result);
         System.err.println("listAnswer size : "+SingleDeviceTest.listAnswer.size());
         SingleDeviceTest.listLock.set(false);
-        System.err.println("answer : "+result);
+        System.err.println(taskNum + " - answer : "+result);
         threadController.isOccupied[threadIndex] = false;
     }
 }
