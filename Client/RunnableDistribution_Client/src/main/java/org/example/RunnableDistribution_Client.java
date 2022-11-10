@@ -80,6 +80,9 @@ public class RunnableDistribution_Client {
                 Socket socket = new Socket(ips[i],21234);
                 DataInputStream dataInputStream = new DataInputStream(socket.getInputStream());
                 ports[i] =  dataInputStream.readInt();
+                dataInputStream.close();
+                socket.close();
+
                 sockets[i] = new Socket(ips[i],ports[i]);
                 for(int j = 0; j< 500; j++);
                 sendThreads[i] = new SendThread(sockets[i]);
