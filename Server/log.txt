@@ -1,1358 +1,2001 @@
 Hello world!
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 2 from client
+21235 : got taskNum : 4
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 2 from client
+21235 : got taskNum : 5
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 2 from client
+21235 : got taskNum : 6
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 2 from client
+21235 : got taskNum : 7
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21236 : Server Loop
+21236 : got message 1 from client
+21236 : send message to Client
+21236 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Send thread : Got Message
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
 answer : 4
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
+21235 : Send thread : Got Message
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 2 from client
+21235 : got taskNum : 8
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
 answer : 6
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
+21235 : Send thread : Got Message
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
 answer : 6
-got message 1 from client
-send message to Client
-Server Loop
+21235 : Send thread : Got Message
+21235 : got message 2 from client
+21235 : got taskNum : 9
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 2 from client
+21235 : got taskNum : 10
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Send thread : Got Message
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Send thread : Got Message
+21235 : Server Loop
+21235 : Send thread : send num to server
+answer : 6
+21235 : Send thread : Got Message
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 2 from client
+21235 : got taskNum : 11
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Send thread : Got Message
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
 answer : 1
-answer : 6
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 1
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
+21235 : Send thread : Got Message
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
 answer : 5
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
+21235 : Send thread : Got Message
+21235 : got message 2 from client
+21235 : got taskNum : 16
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 2 from client
+21235 : got taskNum : 17
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
 answer : 6
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
+21235 : Send thread : Got Message
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 2 from client
+21235 : got taskNum : 18
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+answer : 1
+21235 : Send thread : Got Message
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 2 from client
+21235 : got taskNum : 19
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Send thread : Got Message
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
 answer : 8
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
+21235 : Send thread : Got Message
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
 answer : 6
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
+21235 : Send thread : Got Message
+21235 : got message 2 from client
+21235 : got taskNum : 20
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 2 from client
+21235 : got taskNum : 21
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
 answer : 6
+21235 : Send thread : Got Message
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
 answer : 6
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
+21235 : Send thread : Got Message
+21235 : got message 2 from client
+21235 : got taskNum : 22
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 2 from client
+21235 : got taskNum : 23
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
 answer : 6
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
+21235 : Send thread : Got Message
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
 answer : 5
+21235 : Send thread : Got Message
+21235 : got message 2 from client
+21235 : got taskNum : 28
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 2 from client
+21235 : got taskNum : 29
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
 answer : 1
-got message 1 from client
-send message to Client
-Server Loop
+21235 : Send thread : Got Message
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 2 from client
+21235 : got taskNum : 30
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
 answer : 6
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
+21235 : Send thread : Got Message
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Send thread : Got Message
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 2 from client
+21235 : got taskNum : 31
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Send thread : Got Message
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+answer : 4
+21235 : Send thread : Got Message
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
 answer : 8
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
+21235 : Send thread : Got Message
+21235 : got message 2 from client
+21235 : got taskNum : 32
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Send thread : Got Message
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 2 from client
+21235 : got taskNum : 33
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
 answer : 5
+21235 : Send thread : Got Message
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 2 from client
+21235 : got taskNum : 34
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
 answer : 1
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
+21235 : Send thread : Got Message
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Send thread : Got Message
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 2 from client
+21235 : got taskNum : 36
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Send thread : Got Message
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Send thread : send num to server
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : Send thread : send num to server
+21235 : send message to Client
+21235 : Server Loop
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+21235 : got message 1 from client
+21235 : Send thread : Got Message
+21235 : send message to Client
+21235 : Server Loop
+21235 : Send thread : send num to server
+answer : 6
+21235 : Send thread : Got Message
 answer : 2
-got message 1 from client
-send message to Client
-Server Loop
+21235 : Send thread : Got Message
+answer : 6
+21235 : Send thread : Got Message
 answer : 4
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 4
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 8
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 1
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 5
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 5
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 1
-got message 1 from client
-send message to Client
-Server Loop
-answer : 8
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
-got message 1 from client
-send message to Client
-Server Loop
-answer : 4
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 1
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 5
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 5
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 4
-got message 1 from client
-send message to Client
-Server Loop
-answer : 5
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
-got message 1 from client
-send message to Client
-Server Loop
-answer : 1
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 5
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 5
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
-answer : 1
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 5
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 5
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 6
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 5
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-got message 1 from client
-send message to Client
-Server Loop
-answer : 2
-got message 1 from client
-send message to Client
-Server Loop
-got message 2 from client
-Server Loop
-answer : 2
-answer : 4
-answer : 1
-answer : 8
-answer : 6
-answer : 6
-answer : 1
-answer : 6
+21235 : Send thread : Got Message

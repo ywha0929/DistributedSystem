@@ -24,24 +24,19 @@ public class RunnableDistribution_Server {
         {
             e.printStackTrace();
         }
-    while(true)
-    {
-        try{
 
-            socket = serverSocket.accept();
-            System.out.println("got request");
-            DataOutputStream dataOutputStream = new DataOutputStream(socket.getOutputStream());
-            dataOutputStream.writeInt(port + i);
-            dataOutputStream.flush();
-        }catch (Exception e)
-        {
-            e.printStackTrace();
-        }
+
+        socket = serverSocket.accept();
+        System.out.println("got request");
+        DataOutputStream dataOutputStream = new DataOutputStream(socket.getOutputStream());
+        dataOutputStream.writeInt(port + i);
+        dataOutputStream.flush();
+
         Thread thread = new ServerThread(port + i);
         thread.setPriority(7);
         thread.start();
         i++;
-    }
+
 
     }
 
