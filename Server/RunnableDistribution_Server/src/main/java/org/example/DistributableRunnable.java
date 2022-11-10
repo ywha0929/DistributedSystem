@@ -74,7 +74,7 @@ public class DistributableRunnable implements Serializable, Runnable {
 //            msg.setType(2);
 //            msgQ.pushMessage(msg);
             dataOutputStream.writeInt(2);
-            dataOutputStream.writeInt((result+ taskNum * 1000));
+            dataOutputStream.writeInt((result+ (taskNum * 1000)));
             dataOutputStream.flush();
         } catch (Exception e) {
             throw new RuntimeException(e);

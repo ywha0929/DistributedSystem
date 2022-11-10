@@ -28,7 +28,7 @@ public class RunnableDistribution_Server {
 //        while (true)
 //        {
         socket = serverSocket.accept();
-            System.out.println("got request");
+            System.err.println("got request");
 //            DataOutputStream dataOutputStream = new DataOutputStream(socket.getOutputStream());
 //            dataOutputStream.writeInt(port + i);
 //            dataOutputStream.flush();
