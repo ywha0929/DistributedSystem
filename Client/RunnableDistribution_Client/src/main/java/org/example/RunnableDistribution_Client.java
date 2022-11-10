@@ -29,7 +29,7 @@ public class RunnableDistribution_Client {
         ports = new int[numServers];
         sockets = new Socket[numServers];
         ips[0] = "192.168.0.8";
-        ips[1] = "192.168.0.12";
+        ips[1] = "192.168.0.196";
 //        Scanner sc = new Scanner(System.in);
 //        ips[0] = args[1];
 //        ips[1] = args[2];
