@@ -33,7 +33,7 @@ public class DistributableRunnable implements Serializable, Runnable {
 //        {
 //            System.out.println(operands.get(i));
 //        }
-        for(int i = 0; i< operands.getSize(); i++)
+        for(int i = 0; i< operands.operands.length; i++)
         {
             for(int j = 0; j< operands.getSize(); j++)
             {
@@ -66,6 +66,11 @@ public class DistributableRunnable implements Serializable, Runnable {
 //        } catch (Exception e){
 //            e.printStackTrace();
 //        }
+        for(int i= 0; i< operands.getSize(); i++)
+        {
+            System.out.print(operands.get(i) + " ");
+        }
+        System.out.println("");
         System.out.println(taskNum + "th answer : "+result);
         System.err.println(taskNum + "th answer : "+result);
         DataOutputStream dataOutputStream = new DataOutputStream(outputStream);
