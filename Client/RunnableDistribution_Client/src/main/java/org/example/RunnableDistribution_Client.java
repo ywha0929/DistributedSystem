@@ -33,7 +33,7 @@ public class RunnableDistribution_Client {
         for(int i= 1; i< args.length-1; i++)
         {
             ips[i-1] = args[i];
-            System.out.println(ips[i-1]);
+            System.err.println(ips[i-1]);
         }
 //        ips[1] = "192.168.0.8";
 //        ips[0] = "192.168.0.196";
