@@ -9,7 +9,8 @@ public class DistributableRunnable implements Serializable, Runnable {
     int result;
     OutputStream outputStream;
     int taskNum;
-    public DistributableRunnable(ThreadController threadController, int index, Operands operands, OutputStream outputStream, int taskNum)
+    MessageQueue msgQ;
+    public DistributableRunnable(ThreadController threadController, int index, Operands operands, OutputStream outputStream, int taskNum, MessageQueue msgQ)
     {
         this.operands = operands;
         this.threadIndex = index;
@@ -17,6 +18,7 @@ public class DistributableRunnable implements Serializable, Runnable {
         this.result = 1;
         this.outputStream = outputStream;
         this.taskNum = taskNum;
+        this.msgQ = msgQ;
     }
     public int getResult()
     {
@@ -65,10 +67,13 @@ public class DistributableRunnable implements Serializable, Runnable {
         System.err.println("answer : "+result);
         DataOutputStream dataOutputStream = new DataOutputStream(outputStream);
         try {
-            dataOutputStream.writeInt(2);
-            dataOutputStream.writeInt((result+ taskNum * 1000));
-            dataOutputStream.flush();
-        } catch (IOException e) {
+            Message msg = new Message((result+ taskNum * 1000));
+            msg.setType(2);
+            msgQ.pushMessage(msg);
+//            dataOutputStream.writeInt(2);
+//            dataOutputStream.writeInt((result+ taskNum * 1000));
+//            dataOutputStream.flush();
+        } catch (Exception e) {
             throw new RuntimeException(e);
         }
 

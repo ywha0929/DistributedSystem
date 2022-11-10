@@ -10,7 +10,8 @@ public class RunnableDistribution_Server {
     }
     static ServerSocket serverSocket = null;
     static Socket socket = null;
-    static int numThread = 8;
+    static int numThread = 4;
+    static int i = 1;
     public static void main(String[] args) throws IOException {
 
         ThreadController.getInstance();
@@ -27,11 +28,17 @@ public class RunnableDistribution_Server {
     {
         try{
             socket = serverSocket.accept();
+            DataOutputStream dataOutputStream = new DataOutputStream(socket.getOutputStream());
+            dataOutputStream.writeInt(port + i);
+
         }catch (Exception e)
         {
             e.printStackTrace();
         }
-        new ServerThread(socket).start();
+        Thread thread = new ServerThread(port + i);
+        thread.setPriority(7);
+        thread.start();
+        i++;
     }
 
     }
@@ -49,10 +56,15 @@ class ServerThread extends Thread {
 
     InputStream inputStream;
     OutputStream  outputStream;
+    MessageQueue msgQ;
     byte[] buffer;
-    public ServerThread(Socket socket) throws IOException {
-        this.socket = socket;
+    public ServerThread(int port) throws IOException {
+        ServerSocket serverSocket = new ServerSocket(port);
+        this.socket = serverSocket.accept();
         threadController = ThreadController.getInstance();
+        SendThread sendThread = new SendThread(socket);
+        this.msgQ = sendThread.msgQ;
+        sendThread.start();
 
     }
     @Override
@@ -81,10 +93,12 @@ class ServerThread extends Thread {
                 if(mode == 1)
                 {
                     System.err.println("got message 1 from client");
-                    DataOutputStream dataOutputStream = new DataOutputStream(socket.getOutputStream());
-                    dataOutputStream.writeInt(1);
-                    dataOutputStream.writeInt(threadController.getIdleThreadIndex());
-                    dataOutputStream.flush();
+//                    DataOutputStream dataOutputStream = new DataOutputStream(socket.getOutputStream());
+                    Message msg = new Message(threadController.getIdleThreadIndex());
+                    msgQ.pushMessage(msg);
+//                    dataOutputStream.writeInt(1);
+//                    dataOutputStream.writeInt(threadController.getIdleThreadIndex());
+//                    dataOutputStream.flush();
                     //outputStream.write(byteArrayOutputStream.toByteArray());
                     System.err.println("send message to Client");
                 }
@@ -102,7 +116,7 @@ class ServerThread extends Thread {
                     dataInputStream.read(operandByte);
                     Operands operands = new Operands();
                     operands.fromByteArray(operandByte);
-                    Runnable thisRunnable = new DistributableRunnable(threadController,threadController.getIdleThreadIndex(),operands, outputStream, taskNum);
+                    Runnable thisRunnable = new DistributableRunnable(threadController,threadController.getIdleThreadIndex(),operands, outputStream, taskNum, msgQ);
                     Thread thisThread = new Thread(thisRunnable);
                     threadController.setThread(thisThread,threadController.getIdleThreadIndex());
                     threadController.setRunnable(thisRunnable, threadController.getIdleThreadIndex());
