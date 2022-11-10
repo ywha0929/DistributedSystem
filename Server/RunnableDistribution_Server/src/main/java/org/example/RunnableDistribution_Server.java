@@ -25,17 +25,20 @@ public class RunnableDistribution_Server {
             e.printStackTrace();
         }
 
-
+//        while (true)
+//        {
         socket = serverSocket.accept();
-        System.out.println("got request");
-        DataOutputStream dataOutputStream = new DataOutputStream(socket.getOutputStream());
-        dataOutputStream.writeInt(port + i);
-        dataOutputStream.flush();
+//            System.out.println("got request");
+//            DataOutputStream dataOutputStream = new DataOutputStream(socket.getOutputStream());
+//            dataOutputStream.writeInt(port + i);
+//            dataOutputStream.flush();
 
-        Thread thread = new ServerThread(port + i);
-        thread.setPriority(7);
-        thread.start();
-        i++;
+            Thread thread = new ServerThread(socket);
+            thread.setPriority(7);
+            thread.start();
+            i++;
+//        }
+
 
 
     }
@@ -56,10 +59,10 @@ class ServerThread extends Thread {
     MessageQueue msgQ;
     int port;
     byte[] buffer;
-    public ServerThread(int port) throws IOException {
-        this.port = port;
-        ServerSocket serverSocket = new ServerSocket(port);
-        this.socket = serverSocket.accept();
+    public ServerThread(Socket socket) throws IOException {
+//        this.port = port;
+//        ServerSocket serverSocket = new ServerSocket(port);
+//        this.socket = serverSocket.accept();
         threadController = ThreadController.getInstance();
         SendThread sendThread = new SendThread(socket);
         this.msgQ = sendThread.msgQ;
