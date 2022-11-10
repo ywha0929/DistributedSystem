@@ -96,12 +96,12 @@ class ServerThread extends Thread {
                 if(mode == 1)
                 {
                     System.err.println(port + " : got message 1 from client");
-//                    DataOutputStream dataOutputStream = new DataOutputStream(socket.getOutputStream());
-                    Message msg = new Message(threadController.getIdleThreadIndex());
-                    msgQ.pushMessage(msg);
-//                    dataOutputStream.writeInt(1);
-//                    dataOutputStream.writeInt(threadController.getIdleThreadIndex());
-//                    dataOutputStream.flush();
+                    DataOutputStream dataOutputStream = new DataOutputStream(socket.getOutputStream());
+//                    Message msg = new Message(threadController.getIdleThreadIndex());
+//                    msgQ.pushMessage(msg);
+                    dataOutputStream.writeInt(1);
+                    dataOutputStream.writeInt(threadController.getIdleThreadIndex());
+                    dataOutputStream.flush();
                     //outputStream.write(byteArrayOutputStream.toByteArray());
                     System.err.println(port + " : send message to Client");
                 }

@@ -67,12 +67,12 @@ public class DistributableRunnable implements Serializable, Runnable {
         System.err.println("answer : "+result);
         DataOutputStream dataOutputStream = new DataOutputStream(outputStream);
         try {
-            Message msg = new Message((result+ taskNum * 1000));
-            msg.setType(2);
-            msgQ.pushMessage(msg);
-//            dataOutputStream.writeInt(2);
-//            dataOutputStream.writeInt((result+ taskNum * 1000));
-//            dataOutputStream.flush();
+//            Message msg = new Message((result+ taskNum * 1000));
+//            msg.setType(2);
+//            msgQ.pushMessage(msg);
+            dataOutputStream.writeInt(2);
+            dataOutputStream.writeInt((result+ taskNum * 1000));
+            dataOutputStream.flush();
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
