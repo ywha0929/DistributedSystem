@@ -28,8 +28,8 @@ public class RunnableDistribution_Client {
         ips = new String[numServers];
         ports = new int[numServers];
         sockets = new Socket[numServers];
-        ips[0] = "192.168.0.8";
-        ips[1] = "192.168.0.196";
+        ips[1] = "191.168.0.8";
+        ips[0] = "192.168.0.196";
 //        Scanner sc = new Scanner(System.in);
 //        ips[0] = args[1];
 //        ips[1] = args[2];
@@ -39,8 +39,8 @@ public class RunnableDistribution_Client {
         readThreads = new ReadThread[numServers];
 //        SocketOutputThread[] SocketOutputThreads = new SocketOutputThread[numServers];
 
-        String nameTestFile = "../../TestFiles/TestFile.txt";
-//        String nameTestFile = args[3];
+//        String nameTestFile = "../../TestFiles/TestFile.txt";
+        String nameTestFile = args[3];
         File file = new File(nameTestFile);
         List<String> allLines;
         try {
@@ -77,7 +77,7 @@ public class RunnableDistribution_Client {
         for(int i= 0; i<numServers; i++)
         {
             try{
-                sockets[i] = new Socket(ips[i],21234);
+                sockets[i] = new Socket(ips[i],ports[i]);
 //                DataInputStream dataInputStream = new DataInputStream(socket.getInputStream());
 //                ports[i] =  dataInputStream.readInt();
 //                dataInputStream.close();
@@ -231,11 +231,12 @@ public class RunnableDistribution_Client {
 
 
                 System.err.println("returning");
+                int index = readThreads[i].index + i*1000;
                 readThreads[i].isIndex.set(false);
 //                readThreads[i].isCheck = true;
                 if(readThreads[i].index == -1)
                     continue;
-                return readThreads[i].index + i*1000;
+                return index;
 
             }catch(Exception e){
                 e.printStackTrace();
