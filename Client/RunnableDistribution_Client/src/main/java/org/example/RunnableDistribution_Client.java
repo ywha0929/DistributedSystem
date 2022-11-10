@@ -119,7 +119,7 @@ public class RunnableDistribution_Client {
                 index = threadController.getIdleThreadIndex();
 //                System.out.println("before getServerIdleThreadIndex");
                 serverIndex = getServerIdleThreadIndex();
-                System.err.println("after getServerIdleThreadIndex : "+ serverIndex);
+//                System.err.println("after getServerIdleThreadIndex : "+ serverIndex);
             } //wait until idel thread is found
             if(index == -1)
             {
