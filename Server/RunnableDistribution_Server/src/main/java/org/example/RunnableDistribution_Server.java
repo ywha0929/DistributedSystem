@@ -58,9 +58,9 @@ class ServerThread extends Thread {
     OutputStream  outputStream;
     MessageQueue msgQ;
     int port;
-    byte[] buffer;
+//    byte[] buffer;
     public ServerThread(Socket socket) throws IOException {
-//        this.port = port;
+        this.port = socket.getLocalPort();
 //        ServerSocket serverSocket = new ServerSocket(port);
 //        this.socket = serverSocket.accept();
         this.socket = socket;
@@ -85,7 +85,7 @@ class ServerThread extends Thread {
                 while(inputStream.available() < 0);
 
 
-                buffer = new byte[10];
+//                buffer = new byte[10];
 //                System.out.println("read bytes : "+inputStream.read(buffer));
 //                    for(int j = 0; j< buffer.length; j++)
 //                    {
