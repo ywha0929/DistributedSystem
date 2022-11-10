@@ -50,7 +50,7 @@ public class Operands implements Serializable {
         setSize(source.length);
         for(int i=0; i<this.size; i++)
         {
-            operands[i] = operands[i] & 0xFF;
+            operands[i] = source[i] & 0xFF;
         }
     }
 }
