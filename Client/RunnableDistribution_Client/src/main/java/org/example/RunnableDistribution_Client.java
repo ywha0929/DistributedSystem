@@ -303,6 +303,7 @@ class ReadThread extends Thread
                 else if (mode == 2)
                 {
                     System.err.println("got answer from server");
+                    System.err.println("reply "+other);
                     int result = other % 1000;
                     int taskNum = other / 1000;
                     while(RunnableDistribution_Client.listLock.get())

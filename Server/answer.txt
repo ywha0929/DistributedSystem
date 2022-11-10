@@ -1,12 +1,70 @@
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-17th answer : 1
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-18th answer : 1
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-23th answer : 1
-
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-26th answer : 1
+8th answer : 1
+9th answer : 6
+10th answer : 5
+11th answer : 8
+12th answer : 5
+13th answer : 8
+14th answer : 1
+15th answer : 4
+16th answer : 6
+17th answer : 6
+18th answer : 6
+19th answer : 1
+20th answer : 6
+23th answer : 5
+24th answer : 6
+25th answer : 6
+28th answer : 1
+29th answer : 1
+30th answer : 5
+31th answer : 6
+32th answer : 6
+34th answer : 2
+33th answer : 6
+35th answer : 8
+40th answer : 2
+41th answer : 6
+42th answer : 6
+43th answer : 5
+44th answer : 5
+45th answer : 5
+46th answer : 6
+47th answer : 6
+49th answer : 6
+50th answer : 5
+52th answer : 1
+53th answer : 1
+54th answer : 6
+55th answer : 6
+58th answer : 6
+59th answer : 5
+60th answer : 4
+61th answer : 6
+62th answer : 5
+63th answer : 6
+64th answer : 6
+66th answer : 6
+67th answer : 1
+69th answer : 1
+72th answer : 6
+73th answer : 1
+74th answer : 8
+75th answer : 1
+76th answer : 5
+77th answer : 6
+78th answer : 8
+79th answer : 6
+82th answer : 6
+83th answer : 6
+84th answer : 6
+86th answer : 4
+88th answer : 1
+89th answer : 1
+90th answer : 6
+91th answer : 5
+92th answer : 6
+93th answer : 6
+95th answer : 2
+96th answer : 6
+97th answer : 8
+99th answer : 5
