@@ -6,39 +6,41 @@ import java.net.UnknownHostException;
 import java.nio.file.AtomicMoveNotSupportedException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-import java.util.StringTokenizer;
+import java.util.*;
 import java.util.concurrent.atomic.AtomicBoolean;
 //import org.example.Operands;
 public class RunnableDistribution_Client {
     static String[] ips;
     static int[] ports;
     static Socket[] sockets;
-    static int numServers = 2;
+    static int numServers = 1;
     static int numThread = 4;
     static SendThread[] sendThreads;
     static ReadThread[] readThreads;
+
+    static AtomicBoolean listLock;
+
+    static Map<Integer, Integer> listAnswer;
+//    static List<Map<Integer,Integer>> listAnswer;
     //tatic Thread SendThread;
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         ips = new String[numServers];
         ports = new int[numServers];
         sockets = new Socket[numServers];
         ips[0] = "192.168.0.8";
-        ips[1] = "192.168.0.196";
+//        ips[1] = "192.168.0.196";
 //        Scanner sc = new Scanner(System.in);
 //        ips[0] = args[1];
 //        ips[1] = args[2];
         ports[0] = 21234;
-        ports[1] = 21234;
+//        ports[1] = 21234;
         sendThreads = new SendThread[numServers];
         readThreads = new ReadThread[numServers];
 //        SocketOutputThread[] SocketOutputThreads = new SocketOutputThread[numServers];
 
-//        String nameTestFile = "../../TestFiles/TestFile.txt";
-        String nameTestFile = args[3];
+        String nameTestFile = "../../TestFiles/TestFile.txt";
+//        String nameTestFile = args[3];
         File file = new File(nameTestFile);
         List<String> allLines;
         try {
@@ -64,6 +66,9 @@ public class RunnableDistribution_Client {
             }
             listOperands.add(temp);
         }
+        listAnswer = new HashMap<>();
+        listLock = new AtomicBoolean(false);
+
 
         ThreadController threadController = ThreadController.getInstance();
         threadController.setNumThread(numThread);
@@ -108,7 +113,9 @@ public class RunnableDistribution_Client {
                 int finalI = i;
                 System.err.println("send Calculation to Server : "+serverIndex);
                 byte[] thisOperand = listOperands.get(i).toByteArray();
+
                 Message msg = new Message(thisOperand);
+                msg.parameter = i;
                 sendThreads[numServer].putMsg(msg);
 //                Thread thread = new Thread(new Runnable() {
 //                    @Override
@@ -153,15 +160,33 @@ public class RunnableDistribution_Client {
             {
                 System.err.println("start Calculation");
                 threadController.useThread(index);
-                Thread thisThread = new Thread(new DistributableRunnable(threadController,index, listOperands.get(i)));
+                Thread thisThread = new Thread(new DistributableRunnable(threadController,index, listOperands.get(i), i));
                 thisThread.start();
             }
 
 
         }
+        System.err.println("listOperands size : "+ listOperands.size());
+        int listAnswerSize = listAnswer.size();
+        while(listAnswerSize < listOperands.size()) {
+            while(RunnableDistribution_Client.listLock.get())
+                for(int j = 0; j< 10000; j++);// if not lock
+            RunnableDistribution_Client.listLock.set(true);
+            listAnswerSize = listAnswer.size();
+//            System.err.println("listAnswer size : "+RunnableDistribution_Client.listAnswer.size());
+            RunnableDistribution_Client.listLock.set(false);
+        }
+
+//                System.out.println("waiting");// if not lock;
         long afterTime = System.currentTimeMillis();
         long secDiffTime = (afterTime - beforeTime)/1000;
+        for(int i = 0; i< listAnswer.size(); i++)
+        {
+            System.out.println(listAnswer.get(i));
+
+        }
         System.out.println("Execution Time : " +secDiffTime);
+
 
     }
 //
@@ -247,10 +272,22 @@ class ReadThread extends Thread
 //                    isCheck = false;
                     System.err.println("change:");
                 }
-                else
+                else if (mode == 2)
                 {
-                    System.err.println("answer from Server["+serverNum+"] : "+other);
-                    System.out.println("answer from Server["+serverNum+"] : "+other);
+                    System.err.println("got answer from server");
+                    int result = other % 1000;
+                    int taskNum = other / 1000;
+                    while(RunnableDistribution_Client.listLock.get())
+                        for(int j = 0; j< 10000; j++);// if not lock
+                    RunnableDistribution_Client.listLock.set(true);
+                    RunnableDistribution_Client.listAnswer.put(taskNum,result);
+                    System.err.println("listAnswer size : "+RunnableDistribution_Client.listAnswer.size());
+                    RunnableDistribution_Client.listLock.set(false);
+//                    System.err.println(taskNum + "th answer from Server["+serverNum+"] : "+result);
+//                    System.out.println(taskNum + "th answer from Server["+serverNum+"] : "+result);
+                }
+                else {
+                    System.err.println("corrupted socket");
                 }
             } catch(Exception e)
             {

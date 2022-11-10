@@ -8,13 +8,15 @@ public class DistributableRunnable implements Serializable, Runnable {
     int threadIndex;
     int result;
     OutputStream outputStream;
-    public DistributableRunnable(ThreadController threadController, int index, Operands operands, OutputStream outputStream)
+    int taskNum;
+    public DistributableRunnable(ThreadController threadController, int index, Operands operands, OutputStream outputStream, int taskNum)
     {
         this.operands = operands;
         this.threadIndex = index;
         this.threadController = threadController;
         this.result = 1;
         this.outputStream = outputStream;
+        this.taskNum = taskNum;
     }
     public int getResult()
     {
@@ -64,7 +66,7 @@ public class DistributableRunnable implements Serializable, Runnable {
         DataOutputStream dataOutputStream = new DataOutputStream(outputStream);
         try {
             dataOutputStream.writeInt(2);
-            dataOutputStream.writeInt(result);
+            dataOutputStream.writeInt((result+ taskNum * 1000));
             dataOutputStream.flush();
         } catch (IOException e) {
             throw new RuntimeException(e);

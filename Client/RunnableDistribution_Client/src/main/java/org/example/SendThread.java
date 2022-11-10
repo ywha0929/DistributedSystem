@@ -37,9 +37,10 @@ public class SendThread extends Thread
                 else if(msg.getType() == 2)
                 {
                     dataOutputStream.writeInt(2);
+                    dataOutputStream.writeInt(msg.getParameter());
                     dataOutputStream.write((byte[])msg.getObj());
                     dataOutputStream.flush();
-                    System.err.println("Send thread : sent operands to server");
+                    System.err.println("Send thread : sent operands to server + "+msg.getParameter());
                     //outputStream.write(byteArrayOutputStream.toByteArray());
                 }
             } catch (IOException e) {

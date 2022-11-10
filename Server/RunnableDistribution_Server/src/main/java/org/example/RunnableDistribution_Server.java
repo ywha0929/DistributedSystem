@@ -8,15 +8,32 @@ import java.net.Socket;
 public class RunnableDistribution_Server {
     public RunnableDistribution_Server() throws IOException {
     }
-
+    static ServerSocket serverSocket = null;
+    static Socket socket = null;
+    static int numThread = 8;
     public static void main(String[] args) throws IOException {
 
+        ThreadController.getInstance();
+        ThreadController.getInstance().setNumThread(numThread);
         System.err.println("Hello world!");
         int port = 21234;
+        try{
+            serverSocket = new ServerSocket(port);
+        } catch (Exception e )
+        {
+            e.printStackTrace();
+        }
+    while(true)
+    {
+        try{
+            socket = serverSocket.accept();
+        }catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+        new ServerThread(socket).start();
+    }
 
-
-        Thread serverThread = new ServerThread(port);
-        serverThread.start();
     }
 
 
@@ -25,7 +42,7 @@ public class RunnableDistribution_Server {
 }
 
 class ServerThread extends Thread {
-    static int numThread = 8;
+
     Socket socket;
 
     ThreadController threadController;
@@ -33,10 +50,9 @@ class ServerThread extends Thread {
     InputStream inputStream;
     OutputStream  outputStream;
     byte[] buffer;
-    public ServerThread(int port) throws IOException {
-        socket = new ServerSocket(port).accept();
+    public ServerThread(Socket socket) throws IOException {
+        this.socket = socket;
         threadController = ThreadController.getInstance();
-        threadController.setNumThread(numThread);
 
     }
     @Override
@@ -80,11 +96,13 @@ class ServerThread extends Thread {
 //                        System.out.println("got parameters");
 //                        ByteArrayInputStream byteArrayInputStream2 = new ByteArrayInputStream(buffer);
 //                        objectInputStream = new ObjectInputStream(byteArrayInputStream2);
+                    int  taskNum = dataInputStream.readInt();
+                    System.err.println("got taskNum : "+taskNum);
                     byte[] operandByte = new byte[180];
                     dataInputStream.read(operandByte);
                     Operands operands = new Operands();
                     operands.fromByteArray(operandByte);
-                    Runnable thisRunnable = new DistributableRunnable(threadController,threadController.getIdleThreadIndex(),operands, outputStream);
+                    Runnable thisRunnable = new DistributableRunnable(threadController,threadController.getIdleThreadIndex(),operands, outputStream, taskNum);
                     Thread thisThread = new Thread(thisRunnable);
                     threadController.setThread(thisThread,threadController.getIdleThreadIndex());
                     threadController.setRunnable(thisRunnable, threadController.getIdleThreadIndex());
