@@ -47,8 +47,7 @@ public class Operands implements Serializable {
 //            System.out.print(source[i]);
 //        }
         System.out.println("");
-        this.size = source.length;
-        this.operands = new int[this.size];
+        setSize(source.length);
         for(int i=0; i<this.size; i++)
         {
             operands[i] = operands[i] & 0xFF;
