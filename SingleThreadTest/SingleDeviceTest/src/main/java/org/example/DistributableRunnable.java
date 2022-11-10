@@ -7,12 +7,14 @@ public class DistributableRunnable implements Serializable, Runnable {
     ThreadController threadController;
     int threadIndex;
     int result;
-    public DistributableRunnable(ThreadController threadController, int index, Operands operands)
+    int taskNum;
+    public DistributableRunnable(ThreadController threadController, int index, Operands operands, int taskNum)
     {
         this.operands = operands;
         this.threadIndex = index;
         this.threadController = threadController;
         this.result = 1;
+        this.taskNum = taskNum;
     }
     @Override
     public void run() {
@@ -44,8 +46,13 @@ public class DistributableRunnable implements Serializable, Runnable {
         }
 
 
-
-        System.out.println("answer : "+result);
+        while(SingleDeviceTest.listLock.get())
+            for(int j = 0; j< 10000; j++);// if not lock
+        SingleDeviceTest.listLock.set(true);
+        SingleDeviceTest.listAnswer.put(taskNum,result);
+        System.err.println("listAnswer size : "+SingleDeviceTest.listAnswer.size());
+        SingleDeviceTest.listLock.set(false);
+        System.err.println("answer : "+result);
         threadController.isOccupied[threadIndex] = false;
     }
 }

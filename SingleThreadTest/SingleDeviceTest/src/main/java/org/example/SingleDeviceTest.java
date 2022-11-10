@@ -5,16 +5,18 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.StringTokenizer;
+import java.util.*;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 public class SingleDeviceTest {
-    static int numThread = 4;
+    static int numThread = 8;
+    static AtomicBoolean listLock;
 
+    static Map<Integer, Integer> listAnswer;
 
     public static void main(String[] args) {
-
+        listLock = new AtomicBoolean(false);
+        listAnswer = new HashMap<>();
 //        String nameTestFile = "../../TestFiles/TestFile.txt";
         String nameTestFile = args[1];
         File file = new File(nameTestFile);
@@ -56,12 +58,28 @@ public class SingleDeviceTest {
                 index = threadController.getIdleThreadIndex();
             } //wait until idel thread is found
             threadController.useThread(index);
-            Thread thisThread = new Thread(new DistributableRunnable(threadController,index, listOperands.get(i)));
+            Thread thisThread = new Thread(new DistributableRunnable(threadController,index, listOperands.get(i), i));
             thisThread.start();
 
         }
+
+        int listAnswerSize = listAnswer.size();
+        while(listAnswerSize < listOperands.size()) {
+            while(SingleDeviceTest.listLock.get())
+                for(int j = 0; j< 10000; j++);// if not lock
+            SingleDeviceTest.listLock.set(true);
+            listAnswerSize = listAnswer.size();
+//            System.err.println("listAnswer size : "+RunnableDistribution_Client.listAnswer.size());
+            SingleDeviceTest.listLock.set(false);
+        }
+
         long afterTime = System.currentTimeMillis();
         long secDiffTime = (afterTime - beforeTime)/1000;
+        for(int i = 0; i< listAnswer.size(); i++)
+        {
+            System.out.println(listAnswer.get(i));
+
+        }
         System.out.println("Execution Time : " +secDiffTime);
 
     }
