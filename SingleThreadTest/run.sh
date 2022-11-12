@@ -1,1 +1,1 @@
-java -jar SingleDeviceTest/out/artifacts/SingleDeviceTest_jar/SingleDeviceTest.jar --args ../TestFiles/TestFile.txt 
+java -jar SingleDeviceTest/out/artifacts/SingleDeviceTest_jar/SingleDeviceTest.jar --args $1 ../TestFiles/TestFile.txt 
