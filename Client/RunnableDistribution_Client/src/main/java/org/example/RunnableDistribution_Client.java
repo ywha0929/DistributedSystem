@@ -197,7 +197,7 @@ public class RunnableDistribution_Client {
                 for(int j = 0; j< 20000; j++);// if not lock
             RunnableDistribution_Client.listLock.set(true);
             listAnswerSize = listAnswer.size();
-//            System.err.println("listAnswer size : "+RunnableDistribution_Client.listAnswer.size());
+            System.err.println("listAnswer size : "+RunnableDistribution_Client.listAnswer.size());
             RunnableDistribution_Client.listLock.set(false);
         }
 
@@ -310,7 +310,7 @@ class ReadThread extends Thread
                         for(int j = 0; j< 10000; j++);// if not lock
                     RunnableDistribution_Client.listLock.set(true);
                     RunnableDistribution_Client.listAnswer.put(taskNum,result);
-                    System.err.println("listAnswer size : "+RunnableDistribution_Client.listAnswer.size());
+                    System.err.println("listen : listAnswer size : "+RunnableDistribution_Client.listAnswer.size());
                     RunnableDistribution_Client.listLock.set(false);
 //                    System.err.println(taskNum + "th answer from Server["+serverNum+"] : "+result);
 //                    System.out.println(taskNum + "th answer from Server["+serverNum+"] : "+result);
