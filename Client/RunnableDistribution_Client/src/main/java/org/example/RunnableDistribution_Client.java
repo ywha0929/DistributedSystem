@@ -194,7 +194,7 @@ public class RunnableDistribution_Client {
         int listAnswerSize = listAnswer.size();
         while(listAnswerSize < listOperands.size()) {
             while(RunnableDistribution_Client.listLock.get())
-                for(int j = 0; j< 10000; j++);// if not lock
+                for(int j = 0; j< 20000; j++);// if not lock
             RunnableDistribution_Client.listLock.set(true);
             listAnswerSize = listAnswer.size();
 //            System.err.println("listAnswer size : "+RunnableDistribution_Client.listAnswer.size());
