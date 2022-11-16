@@ -3,8 +3,3 @@
 ./run.sh 1 | tee SingleThread_3.txt
 ./run.sh 1 | tee SingleThread_4.txt
 ./run.sh 1 | tee SingleThread_5.txt
-./run.sh 10 | tee MultiThread_1.txt
-./run.sh 10 | tee MultiThread_2.txt
-./run.sh 10 | tee MultiThread_3.txt
-./run.sh 10 | tee MultiThread_4.txt
-./run.sh 10 | tee MultiThread_5.txt

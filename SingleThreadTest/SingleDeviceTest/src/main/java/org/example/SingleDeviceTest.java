@@ -54,7 +54,7 @@ public class SingleDeviceTest {
         {
             int[] thisOperands = listOperands.get(i).getOperands();
             int result = 1;
-            for(int j = 0; i< thisOperands.length; j++)
+            for(int j = 0; j< thisOperands.length; j++)
             {
                 for(int k = 0; k< thisOperands.length; k++)
                 {
@@ -70,6 +70,7 @@ public class SingleDeviceTest {
                     }
                 }
             }
+            System.err.println("Answer :"+result);
             listAnswer.put(i,result);
 
         }
