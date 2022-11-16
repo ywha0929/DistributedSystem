@@ -14,7 +14,7 @@ public class RunnableDistribution_Client {
 //    static int[] ports;
     static Socket[] sockets;
     static int numServers = 1;
-    static int numThread = 8;
+    static int numThread = 7;
     static SendThread[] sendThreads;
     static ReadThread[] readThreads;
 
