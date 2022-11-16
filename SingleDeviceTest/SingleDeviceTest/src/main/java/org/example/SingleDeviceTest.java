@@ -52,37 +52,27 @@ public class SingleDeviceTest {
         long beforeTime = System.currentTimeMillis();
         for(int i = 0; i<listOperands.size(); i++)
         {
-            int[] thisOperands = listOperands.get(i).getOperands();
-            int result = 1;
-            for(int j = 0; i< thisOperands.length; j++)
+            int index = threadController.getIdleThreadIndex();
+//            System.out.println("index : " + index);
+            while(index == -1)
             {
-                for(int k = 0; k< thisOperands.length; k++)
-                {
-                    for(int l = 0; l< thisOperands.length; l++)
-                    {
-                        for(int m = 0; m< thisOperands.length; m++)
-                        {
-                            result = result * thisOperands[j];
-                            result = result % 10;
-                            if(result == 0)
-                                result = 1;
-                        }
-                    }
-                }
-            }
-            listAnswer.put(i,result);
+                index = threadController.getIdleThreadIndex();
+            } //wait until idel thread is found
+            threadController.useThread(index);
+            Thread thisThread = new Thread(new DistributableRunnable(threadController,index, listOperands.get(i), i));
+            thisThread.start();
 
         }
 
         int listAnswerSize = listAnswer.size();
-//        while(listAnswerSize < listOperands.size()) {
-//            while(SingleDeviceTest.listLock.get())
-//                for(int j = 0; j< 10000; j++);// if not lock
-//            SingleDeviceTest.listLock.set(true);
-//            listAnswerSize = listAnswer.size();
-////            System.err.println("listAnswer size : "+RunnableDistribution_Client.listAnswer.size());
-//            SingleDeviceTest.listLock.set(false);
-//        }
+        while(listAnswerSize < listOperands.size()) {
+            while(SingleDeviceTest.listLock.get())
+                for(int j = 0; j< 10000; j++);// if not lock
+            SingleDeviceTest.listLock.set(true);
+            listAnswerSize = listAnswer.size();
+//            System.err.println("listAnswer size : "+RunnableDistribution_Client.listAnswer.size());
+            SingleDeviceTest.listLock.set(false);
+        }
 
         long afterTime = System.currentTimeMillis();
         long secDiffTime = (afterTime - beforeTime)/1000;
