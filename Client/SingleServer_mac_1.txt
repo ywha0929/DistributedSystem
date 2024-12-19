@@ -98,4 +98,4 @@
 97th answer : 8
 98th answer : 6
 99th answer : 5
-Execution Time : 353
+Execution Time : 33

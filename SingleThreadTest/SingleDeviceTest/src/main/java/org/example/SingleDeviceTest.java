@@ -17,9 +17,9 @@ public class SingleDeviceTest {
     public static void main(String[] args) {
         listLock = new AtomicBoolean(false);
         listAnswer = new HashMap<>();
-//        String nameTestFile = "../../TestFiles/TestFile.txt";
-        numThread = Integer.parseInt(args[1]);
-        String nameTestFile = args[2];
+        String nameTestFile = "../../TestFiles/TestFile.txt";
+//        numThread = Integer.parseInt(args[1]);
+//        String nameTestFile = args[2];
         File file = new File(nameTestFile);
         List<String> allLines;
         try {
